@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'MapViewPlus_Example' do
+  pod 'MapViewPlus', :path => '../'
+
+  target 'MapViewPlus_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
