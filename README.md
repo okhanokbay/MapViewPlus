@@ -8,7 +8,7 @@
 
 ## GIFs
 
-<img src="https://github.com/okhanokbay/MapViewPlus/blob/master/Example/basic_example_new.gif" width=320> <img src="https://github.com/okhanokbay/MapViewPlus/blob/master/Example/default_callout_example.gif" width=320>
+<img src="https://github.com/okhanokbay/MapViewPlus/blob/master/Example/basic_example_ld.gif" width=320> <img src="https://github.com/okhanokbay/MapViewPlus/blob/master/Example/default_callout_ld.gif" width=320>
 
 ## About
 
