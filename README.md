@@ -58,7 +58,7 @@ If you don't use CocoaPods, you can drag and drop all the classes and use it in 
 <img src="https://github.com/okhanokbay/MapViewPlus/blob/master/Example/settings_and_module.png">
 
 
-**2) Setup your annotation view model:**
+**2) Setup your Callout View Model:**
 
 ```swift
 import UIKit
@@ -107,7 +107,7 @@ class YourCalloutView: UIView, CalloutViewPlus {
 }
 ```
 
-**4) Setup your annotations in your view controller:**
+**4) Setup your Annotations in your View Controller:**
 
 ```swift
 import UIKit
@@ -137,7 +137,7 @@ class YourViewController: UIViewController {
 }
 ```
 
-**5) Return the image for annotation and the view for callout**
+**5) Return the image for Annotation and the View for Callout**
 
 ```swift
 extension YourViewController: MapViewPlusDelegate {
