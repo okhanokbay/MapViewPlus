@@ -12,8 +12,6 @@
 
 ## About
 
-Are you tired of dealing with MapKit just to add a custom annotation image and custom callout view to MKMapView?
-
 MapViewPlus gives you the missing methods of MapKit which are: ```imageForAnnotation``` and ```calloutViewForAnnotationView``` delegate methods.
 
 - Return any UIImage from ```imageForAnnotation``` (image shouldn't have paddings)
