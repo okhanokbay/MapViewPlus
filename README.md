@@ -127,7 +127,7 @@ class YourViewController: UIViewController {
     let viewModel = YourAnnotationViewModel(title: "Cafe", image: UIImage(named: "cafe.png")!)
 
     let annotation = AnnotationPlus(viewModel: viewModel,
-    coordinate: CLLocationCoordinate2DMake(50.11, 8.68))
+                                    coordinate: CLLocationCoordinate2DMake(50.11, 8.68))
 
     var annotations: [AnnotationPlus] = []
     annotations.append(annotation)
