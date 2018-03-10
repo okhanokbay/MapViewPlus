@@ -237,7 +237,7 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Screenshots
 
-<img src="https://github.com/okhanokbay/MapViewPlus/blob/master/Example/basic_example.png" width=300> <img src="https://github.com/okhanokbay/MapViewPlus/blob/master/Example/default_callout_example.png" width=300>
+<img src="https://github.com/okhanokbay/MapViewPlus/blob/master/Example/basic_example_new.png" width=320> <img src="https://github.com/okhanokbay/MapViewPlus/blob/master/Example/default_callout_example_new.png" width=320>
 
 ## License
 
