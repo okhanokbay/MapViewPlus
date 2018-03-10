@@ -162,7 +162,7 @@ MapViewPlus is highly customizable:
 
 ### CalloutViewCustomizerDelegate
 
-- Change the center of the callout view related to anchor view:
+- Change the center of the callout view related to anchor view and callout view:
 
 ```swift
 func mapView(_ mapView: MapViewPlus, centerForCalloutViewOf annotationView: AnnotationViewPlus) -> CalloutViewPlusCenter
