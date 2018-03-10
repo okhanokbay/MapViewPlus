@@ -9,43 +9,48 @@
 /* Begin PBXBuildFile section */
 		1EFBC68B28369B4E9E7E2DAA /* Pods_MapViewPlus_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF23D252034CA779C89C7B4 /* Pods_MapViewPlus_Example.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
-		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
-		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
-		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
-		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
-		A04D93B3D704ABF432158938 /* Pods_MapViewPlus_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2CE891B75A57E7354C0D5D9 /* Pods_MapViewPlus_Tests.framework */; };
+		83839C70205393BF002D6613 /* house.png in Resources */ = {isa = PBXBuildFile; fileRef = 83839C6B205393BF002D6613 /* house.png */; };
+		83839C71205393BF002D6613 /* skyscraper.png in Resources */ = {isa = PBXBuildFile; fileRef = 83839C6C205393BF002D6613 /* skyscraper.png */; };
+		83839C72205393BF002D6613 /* cafe.png in Resources */ = {isa = PBXBuildFile; fileRef = 83839C6D205393BF002D6613 /* cafe.png */; };
+		83839C73205393BF002D6613 /* basic_annotation_image.png in Resources */ = {isa = PBXBuildFile; fileRef = 83839C6E205393BF002D6613 /* basic_annotation_image.png */; };
+		83839C74205393BF002D6613 /* factory.png in Resources */ = {isa = PBXBuildFile; fileRef = 83839C6F205393BF002D6613 /* factory.png */; };
+		83839C79205393CA002D6613 /* BasicCalloutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83839C75205393C9002D6613 /* BasicCalloutView.swift */; };
+		83839C7A205393CA002D6613 /* BasicExampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83839C76205393C9002D6613 /* BasicExampleViewController.swift */; };
+		83839C7B205393CA002D6613 /* BasicCalloutView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 83839C77205393C9002D6613 /* BasicCalloutView.xib */; };
+		83839C7C205393CA002D6613 /* BasicCalloutViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83839C78205393C9002D6613 /* BasicCalloutViewModel.swift */; };
+		83839C7E205393E0002D6613 /* DefaultCalloutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83839C7D205393E0002D6613 /* DefaultCalloutViewController.swift */; };
+		83839C80205393ED002D6613 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83839C7F205393ED002D6613 /* Main.storyboard */; };
+		83839C82205393F5002D6613 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83839C81205393F5002D6613 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		607FACE61AFB9204008FA782 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 607FACC81AFB9204008FA782 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 607FACCF1AFB9204008FA782;
-			remoteInfo = MapViewPlus;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		020AC1292024337F13297F42 /* Pods-MapViewPlus_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MapViewPlus_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MapViewPlus_Example/Pods-MapViewPlus_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		12C8AB9F284852A41ACD4A11 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		12C8AB9F284852A41ACD4A11 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		1DF23D252034CA779C89C7B4 /* Pods_MapViewPlus_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MapViewPlus_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3492C300D1A65FD5EAF35BF5 /* Pods-MapViewPlus_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MapViewPlus_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MapViewPlus_Tests/Pods-MapViewPlus_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		52422279A1F30D2B76A394D4 /* Pods-MapViewPlus_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MapViewPlus_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-MapViewPlus_Example/Pods-MapViewPlus_Example.release.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* MapViewPlus_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MapViewPlus_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		607FACD71AFB9204008FA782 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		607FACDA1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		607FACDC1AFB9204008FA782 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		607FACDF1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		607FACE51AFB9204008FA782 /* MapViewPlus_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MapViewPlus_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
+		83839C6B205393BF002D6613 /* house.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = house.png; sourceTree = "<group>"; };
+		83839C6C205393BF002D6613 /* skyscraper.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = skyscraper.png; sourceTree = "<group>"; };
+		83839C6D205393BF002D6613 /* cafe.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cafe.png; sourceTree = "<group>"; };
+		83839C6E205393BF002D6613 /* basic_annotation_image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = basic_annotation_image.png; sourceTree = "<group>"; };
+		83839C6F205393BF002D6613 /* factory.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = factory.png; sourceTree = "<group>"; };
+		83839C75205393C9002D6613 /* BasicCalloutView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasicCalloutView.swift; sourceTree = "<group>"; };
+		83839C76205393C9002D6613 /* BasicExampleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasicExampleViewController.swift; sourceTree = "<group>"; };
+		83839C77205393C9002D6613 /* BasicCalloutView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BasicCalloutView.xib; sourceTree = "<group>"; };
+		83839C78205393C9002D6613 /* BasicCalloutViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasicCalloutViewModel.swift; sourceTree = "<group>"; };
+		83839C7D205393E0002D6613 /* DefaultCalloutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultCalloutViewController.swift; sourceTree = "<group>"; };
+		83839C7F205393ED002D6613 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		83839C81205393F5002D6613 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		92D12292420E87E015567A13 /* Pods-MapViewPlus_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MapViewPlus_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MapViewPlus_Tests/Pods-MapViewPlus_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		A297B1002BBF2C4152804D92 /* MapViewPlus.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = MapViewPlus.podspec; path = ../MapViewPlus.podspec; sourceTree = "<group>"; };
-		D6A058546C037EA78F09EE7E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		A297B1002BBF2C4152804D92 /* MapViewPlus.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = MapViewPlus.podspec; path = ../MapViewPlus.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		D6A058546C037EA78F09EE7E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		E2CE891B75A57E7354C0D5D9 /* Pods_MapViewPlus_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MapViewPlus_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -55,14 +60,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				1EFBC68B28369B4E9E7E2DAA /* Pods_MapViewPlus_Example.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		607FACE21AFB9204008FA782 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A04D93B3D704ABF432158938 /* Pods_MapViewPlus_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,7 +91,6 @@
 			isa = PBXGroup;
 			children = (
 				607FACD01AFB9204008FA782 /* MapViewPlus_Example.app */,
-				607FACE51AFB9204008FA782 /* MapViewPlus_Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -102,11 +98,12 @@
 		607FACD21AFB9204008FA782 /* Example for MapViewPlus */ = {
 			isa = PBXGroup;
 			children = (
+				83839C6920539377002D6613 /* Default Callout View Usage */,
+				83839C6820539371002D6613 /* Basic Example */,
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
-				607FACD71AFB9204008FA782 /* ViewController.swift */,
-				607FACD91AFB9204008FA782 /* Main.storyboard */,
+				83839C7F205393ED002D6613 /* Main.storyboard */,
+				83839C81205393F5002D6613 /* LaunchScreen.storyboard */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
-				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
 				607FACD31AFB9204008FA782 /* Supporting Files */,
 			);
 			name = "Example for MapViewPlus";
@@ -148,6 +145,38 @@
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
 		};
+		83839C6820539371002D6613 /* Basic Example */ = {
+			isa = PBXGroup;
+			children = (
+				83839C6A205393B7002D6613 /* Images */,
+				83839C75205393C9002D6613 /* BasicCalloutView.swift */,
+				83839C77205393C9002D6613 /* BasicCalloutView.xib */,
+				83839C78205393C9002D6613 /* BasicCalloutViewModel.swift */,
+				83839C76205393C9002D6613 /* BasicExampleViewController.swift */,
+			);
+			name = "Basic Example";
+			sourceTree = "<group>";
+		};
+		83839C6920539377002D6613 /* Default Callout View Usage */ = {
+			isa = PBXGroup;
+			children = (
+				83839C7D205393E0002D6613 /* DefaultCalloutViewController.swift */,
+			);
+			name = "Default Callout View Usage";
+			sourceTree = "<group>";
+		};
+		83839C6A205393B7002D6613 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				83839C6E205393BF002D6613 /* basic_annotation_image.png */,
+				83839C6D205393BF002D6613 /* cafe.png */,
+				83839C6F205393BF002D6613 /* factory.png */,
+				83839C6B205393BF002D6613 /* house.png */,
+				83839C6C205393BF002D6613 /* skyscraper.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
 		9AEBB6497B7FE2FCC245535F /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -182,27 +211,6 @@
 			productReference = 607FACD01AFB9204008FA782 /* MapViewPlus_Example.app */;
 			productType = "com.apple.product-type.application";
 		};
-		607FACE41AFB9204008FA782 /* MapViewPlus_Tests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "MapViewPlus_Tests" */;
-			buildPhases = (
-				1A33F8A9918EBCF64DCA6721 /* [CP] Check Pods Manifest.lock */,
-				607FACE11AFB9204008FA782 /* Sources */,
-				607FACE21AFB9204008FA782 /* Frameworks */,
-				607FACE31AFB9204008FA782 /* Resources */,
-				70870FD4592531F3F66E3C5E /* [CP] Embed Pods Frameworks */,
-				3B701F062C2F5F01D7716DE1 /* [CP] Copy Pods Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				607FACE71AFB9204008FA782 /* PBXTargetDependency */,
-			);
-			name = MapViewPlus_Tests;
-			productName = Tests;
-			productReference = 607FACE51AFB9204008FA782 /* MapViewPlus_Tests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -215,12 +223,8 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = VR8AX8Y52G;
 						LastSwiftMigration = 0900;
-					};
-					607FACE41AFB9204008FA782 = {
-						CreatedOnToolsVersion = 6.3.1;
-						LastSwiftMigration = 0900;
-						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
 				};
 			};
@@ -238,7 +242,6 @@
 			projectRoot = "";
 			targets = (
 				607FACCF1AFB9204008FA782 /* MapViewPlus_Example */,
-				607FACE41AFB9204008FA782 /* MapViewPlus_Tests */,
 			);
 		};
 /* End PBXProject section */
@@ -248,55 +251,21 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
-				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
+				83839C82205393F5002D6613 /* LaunchScreen.storyboard in Resources */,
+				83839C70205393BF002D6613 /* house.png in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		607FACE31AFB9204008FA782 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				83839C72205393BF002D6613 /* cafe.png in Resources */,
+				83839C80205393ED002D6613 /* Main.storyboard in Resources */,
+				83839C73205393BF002D6613 /* basic_annotation_image.png in Resources */,
+				83839C74205393BF002D6613 /* factory.png in Resources */,
+				83839C71205393BF002D6613 /* skyscraper.png in Resources */,
+				83839C7B205393CA002D6613 /* BasicCalloutView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		1A33F8A9918EBCF64DCA6721 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-MapViewPlus_Tests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		3B701F062C2F5F01D7716DE1 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MapViewPlus_Tests/Pods-MapViewPlus_Tests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		594E18A9913F52C1DA284F2F /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -315,21 +284,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		70870FD4592531F3F66E3C5E /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MapViewPlus_Tests/Pods-MapViewPlus_Tests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		788AC9CE4B9866EFD18E4D7D /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -337,10 +291,12 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-MapViewPlus_Example/Pods-MapViewPlus_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
 				"${BUILT_PRODUCTS_DIR}/MapViewPlus/MapViewPlus.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MapViewPlus.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -370,47 +326,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
+				83839C7C205393CA002D6613 /* BasicCalloutViewModel.swift in Sources */,
+				83839C79205393CA002D6613 /* BasicCalloutView.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		607FACE11AFB9204008FA782 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				607FACEC1AFB9204008FA782 /* Tests.swift in Sources */,
+				83839C7E205393E0002D6613 /* DefaultCalloutViewController.swift in Sources */,
+				83839C7A205393CA002D6613 /* BasicExampleViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		607FACE71AFB9204008FA782 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 607FACCF1AFB9204008FA782 /* MapViewPlus_Example */;
-			targetProxy = 607FACE61AFB9204008FA782 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		607FACD91AFB9204008FA782 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				607FACDA1AFB9204008FA782 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		607FACDE1AFB9204008FA782 /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				607FACDF1AFB9204008FA782 /* Base */,
-			);
-			name = LaunchScreen.xib;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		607FACED1AFB9204008FA782 /* Debug */ = {
@@ -517,13 +441,16 @@
 			baseConfigurationReference = 020AC1292024337F13297F42 /* Pods-MapViewPlus_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = VR8AX8Y52G;
 				INFOPLIST_FILE = MapViewPlus/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -532,51 +459,16 @@
 			baseConfigurationReference = 52422279A1F30D2B76A394D4 /* Pods-MapViewPlus_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = VR8AX8Y52G;
 				INFOPLIST_FILE = MapViewPlus/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
-			};
-			name = Release;
-		};
-		607FACF31AFB9204008FA782 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3492C300D1A65FD5EAF35BF5 /* Pods-MapViewPlus_Tests.debug.xcconfig */;
-			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = Tests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
-			};
-			name = Debug;
-		};
-		607FACF41AFB9204008FA782 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 92D12292420E87E015567A13 /* Pods-MapViewPlus_Tests.release.xcconfig */;
-			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = Tests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -597,15 +489,6 @@
 			buildConfigurations = (
 				607FACF01AFB9204008FA782 /* Debug */,
 				607FACF11AFB9204008FA782 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "MapViewPlus_Tests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				607FACF31AFB9204008FA782 /* Debug */,
-				607FACF41AFB9204008FA782 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

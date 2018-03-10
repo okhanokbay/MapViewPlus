@@ -1,0 +1,19 @@
+PODS:
+  - Kingfisher (4.6.3)
+  - MapViewPlus (0.1.0):
+    - Kingfisher (~> 4.6.3)
+
+DEPENDENCIES:
+  - MapViewPlus (from `../`)
+
+EXTERNAL SOURCES:
+  MapViewPlus:
+    :path: ../
+
+SPEC CHECKSUMS:
+  Kingfisher: 98e6d5b5e807645743e8ed5ececd25d688d38452
+  MapViewPlus: d697bb1591521001bfaa42dd3d055892ac97e26a
+
+PODFILE CHECKSUM: b1a4f230a6b224ef6ae017c8175433228bad92f5
+
+COCOAPODS: 1.4.0
