@@ -19,16 +19,16 @@ MapViewPlus gives you the missing methods of MapKit which are: ```imageForAnnota
 - Return any UIImage from ```imageForAnnotation``` (image shouldn't have paddings)
 - Create any UIView to use as your custom callout view and return it from ```calloutViewForAnnotationView```
 - MapViewPlus will:
-1) Add an anchor view to bottom of your callout view
-2) Combine callout view with the anchor view and add shadow to both of them
-3) Add a cool animation to ```CalloutAndAnchorView```
-4) Make it user interaction enabled (this may be easy but tricky sometimes)
-5) Scrolls map view to show the callout view completely after tapping the annotation view
-5) Even give a ready-to-use template for callout view
-6) Forward all of the delegate methods of ```MKMapView``` to your own class (except ```mapView:viewForAnnotation:```)
+  1) Add an anchor view to bottom of your callout view
+  2) Combine callout view with the anchor view and add shadow to both of them
+  3) Add a cool animation to ```CalloutAndAnchorView```
+  4) Make it user interaction enabled (this may be easy but tricky sometimes)
+  5) Scrolls map view to show the callout view completely after tapping the annotation view
+  5) Even give a ready-to-use template for callout view
+  6) Forward all of the delegate methods of ```MKMapView``` to your own class (except ```mapView:viewForAnnotation:```)
 
 
-##### Forwarding Delegate Methods
+### Forwarding Delegate Methods
 
 ```MapViewPlus``` uses methods from ```MKMapViewDelegate```, but not all of them. It forwards all of the delegate methods that are not used by ```MapViewPlus```. It only won't forward the one, which is, ```mapView:viewForAnnotation:```. This method is used internally and won't be redirected to your subclass.
 
@@ -55,7 +55,7 @@ If you don't use CocoaPods, you can drag and drop all the classes and use it in 
 
 **1) If you are using Interface Builder, set your map view's class and module as MapViewPlus:'**
 
-<img src="https://github.com/okhanokbay/ExpyTableView/blob/master/Example/settings_and_module.png">
+<img src="https://github.com/okhanokbay/MapViewPlus/blob/master/Example/settings_and_module.png">
 
 
 **2) Setup your annotation view model:**
@@ -66,13 +66,13 @@ import MapViewPlus
 
 class YourCalloutViewModel: CalloutViewModel {
 
-var title: String
-var image: UIImage
+  var title: String
+  var image: UIImage
 
-init(title: String, image: UIImage) {
-self.title = title
-self.image = image
-}
+  init(title: String, image: UIImage) {
+   self.title = title
+   self.image = image
+  }
 }
 ```
 
@@ -80,7 +80,7 @@ self.image = image
 
 - Create any view in a xib file or programmatically:
 
-<img src="https://github.com/okhanokbay/ExpyTableView/blob/master/Example/calloutview_example.png">
+<img src="https://github.com/okhanokbay/MapViewPlus/blob/master/Example/calloutview_example.png">
 
 - Wire your view to your callout view class:
 
@@ -90,20 +90,20 @@ import MapViewPlus
 
 class YourCalloutView: UIView, CalloutViewPlus {
 
-@IBOutlet weak var label: UILabel!
-@IBOutlet weak var imageView: UIImageView!
+  @IBOutlet weak var label: UILabel!
+  @IBOutlet weak var imageView: UIImageView!
 
-override func awakeFromNib() {
-super.awakeFromNib()
-isUserInteractionEnabled = true
-}
+  override func awakeFromNib() {
+    super.awakeFromNib()
+    isUserInteractionEnabled = true
+  }
 
-func configureCallout(_ viewModel: CalloutViewModel) {
-let viewModel = viewModel as! YourCalloutViewModel
+  func configureCallout(_ viewModel: CalloutViewModel) {
+  let viewModel = viewModel as! YourCalloutViewModel
 
-label.text = viewModel.title
-imageView.image = viewModel.image
-}
+  label.text = viewModel.title
+  imageView.image = viewModel.image
+  }
 }
 ```
 
@@ -116,40 +116,40 @@ import MapViewPlus
 
 class YourViewController: UIViewController {
 
-@IBOutlet weak var mapView: MapViewPlus!
+  @IBOutlet weak var mapView: MapViewPlus!
 
-override func viewDidLoad() {
-super.viewDidLoad()
+  override func viewDidLoad() {
+  super.viewDidLoad()
 
-//Required
-mapView.delegate = self
+  //Required
+  mapView.delegate = self
 
-let viewModel = YourAnnotationViewModel(title: "Cafe", image: UIImage(named: "cafe.png")!)
+  let viewModel = YourAnnotationViewModel(title: "Cafe", image: UIImage(named: "cafe.png")!)
 
-let annotation = AnnotationPlus(viewModel: viewModel,
-coordinate: CLLocationCoordinate2DMake(50.11, 8.68))
+  let annotation = AnnotationPlus(viewModel: viewModel,
+  coordinate: CLLocationCoordinate2DMake(50.11, 8.68))
 
-var annotations: [AnnotationPlus] = []
-annotations.append(annotation)
+  var annotations: [AnnotationPlus] = []
+  annotations.append(annotation)
 
-mapView.setup(withAnnotations: annotations)
-}
+  mapView.setup(withAnnotations: annotations)
+  }
 }
 ```
 
-5) Return the image for annotation and the view for callout
+**5) Return the image for annotation and the view for callout**
 
-```
+```swift
 extension YourViewController: MapViewPlusDelegate {
 
-func mapView(_ mapView: MapViewPlus, imageFor annotation: AnnotationPlus) -> UIImage {
-return UIImage(named: "your_annotation_image.png")!
-}
+  func mapView(_ mapView: MapViewPlus, imageFor annotation: AnnotationPlus) -> UIImage {
+    return UIImage(named: "your_annotation_image.png")!
+  }
 
-func mapView(_ mapView: MapViewPlus, calloutViewFor annotationView: AnnotationViewPlus) -> CalloutViewPlus{
-let calloutView = Bundle.main.loadNibNamed("YourCalloutView", owner: nil, options: nil)!.first as! YourCalloutView
-return calloutView
-}
+  func mapView(_ mapView: MapViewPlus, calloutViewFor annotationView: AnnotationViewPlus) -> CalloutViewPlus{
+    let calloutView = Bundle.main.loadNibNamed("YourCalloutView", owner: nil, options: nil)!.first as! YourCalloutView
+    return calloutView
+  }
 }
 
 ```
@@ -160,7 +160,7 @@ This is it. You are all set and ready to go now.
 
 MapViewPlus is highly customizable:
 
-#### CalloutViewCustomizerDelegate
+### CalloutViewCustomizerDelegate
 
 - Change the center of the callout view related to anchor view:
 
@@ -192,7 +192,7 @@ func mapView(_ mapView: MapViewPlus, animationTypeForShowingCalloutViewOf annota
 func mapView(_ mapView: MapViewPlus, animationTypeForHidingCalloutViewOf annoationView: AnnotationViewPlus) -> CalloutViewHidingAnimationType
 ```
 
-#### AnchorViewCustomizerDelegate
+### AnchorViewCustomizerDelegate
 
 - Change the height for anchor. Anchor view **will always draw a equilateral triangle** by taking the value you supplied as the triangle's height. You can change the height and the anchor view will calculate the necessary size for you:
 
@@ -208,7 +208,7 @@ func mapView(_ mapView: MapViewPlus, fillColorForAnchorOf calloutView: CalloutVi
 
 ## Notes
 
-##### DefaultCalloutView
+### DefaultCalloutView
 
 - MapViewPlus supplies you a ready-to-go template for callout view. You can see the usage example of it in the example project. Just download it and try.
 - It allows you to specify the source of the image. It has three options:
@@ -217,7 +217,7 @@ func mapView(_ mapView: MapViewPlus, fillColorForAnchorOf calloutView: CalloutVi
 2) ```.fromBundle(image: UIImage)```
 3) ```.none```
 
-##### Others
+### Others
 
 - This is an MVP and will be maintained and new features will be developed. Any help is appreciated.
 
