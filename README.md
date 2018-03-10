@@ -70,8 +70,8 @@ class YourCalloutViewModel: CalloutViewModel {
   var image: UIImage
 
   init(title: String, image: UIImage) {
-   self.title = title
-   self.image = image
+    self.title = title
+    self.image = image
   }
 }
 ```
@@ -99,10 +99,10 @@ class YourCalloutView: UIView, CalloutViewPlus {
   }
 
   func configureCallout(_ viewModel: CalloutViewModel) {
-  let viewModel = viewModel as! YourCalloutViewModel
+    let viewModel = viewModel as! YourCalloutViewModel
 
-  label.text = viewModel.title
-  imageView.image = viewModel.image
+    label.text = viewModel.title
+    imageView.image = viewModel.image
   }
 }
 ```
@@ -119,20 +119,20 @@ class YourViewController: UIViewController {
   @IBOutlet weak var mapView: MapViewPlus!
 
   override func viewDidLoad() {
-  super.viewDidLoad()
+    super.viewDidLoad()
 
-  //Required
-  mapView.delegate = self
+    //Required
+    mapView.delegate = self
 
-  let viewModel = YourAnnotationViewModel(title: "Cafe", image: UIImage(named: "cafe.png")!)
+    let viewModel = YourAnnotationViewModel(title: "Cafe", image: UIImage(named: "cafe.png")!)
 
-  let annotation = AnnotationPlus(viewModel: viewModel,
-  coordinate: CLLocationCoordinate2DMake(50.11, 8.68))
+    let annotation = AnnotationPlus(viewModel: viewModel,
+    coordinate: CLLocationCoordinate2DMake(50.11, 8.68))
 
-  var annotations: [AnnotationPlus] = []
-  annotations.append(annotation)
+    var annotations: [AnnotationPlus] = []
+    annotations.append(annotation)
 
-  mapView.setup(withAnnotations: annotations)
+    mapView.setup(withAnnotations: annotations)
   }
 }
 ```
