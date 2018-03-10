@@ -6,8 +6,6 @@
 [![License](https://img.shields.io/cocoapods/l/MapViewPlus.svg?style=flat)](http://cocoapods.org/pods/MapViewPlus)
 [![Platform](https://img.shields.io/cocoapods/p/MapViewPlus.svg?style=flat)](http://cocoapods.org/pods/MapViewPlus)
 
-## GIFs
-
 <img src="https://github.com/okhanokbay/MapViewPlus/blob/master/Example/basic_example_ld.gif" width=320> <img src="https://github.com/okhanokbay/MapViewPlus/blob/master/Example/default_callout_ld.gif" width=320>
 
 ## About
