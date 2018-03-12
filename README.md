@@ -21,7 +21,7 @@ MapViewPlus gives you the missing methods of MapKit which are: ```imageForAnnota
   4) Make it user interaction enabled (this may be easy but tricky sometimes)
   5) Scrolls map view to show the callout view completely after tapping the annotation view
   5) Even give a ready-to-use template for callout view
-  6) Forward all of the delegate methods of ```MKMapView``` to your own class (except ```mapView:viewForAnnotation:```)
+  6) Forward all of the delegate methods of ```MKMapView``` to your subclass of ```MapViewPlus``` (except ```mapView:viewForAnnotation:```)
 
 
 ### Forwarding Delegate Methods
