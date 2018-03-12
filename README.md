@@ -26,7 +26,7 @@ MapViewPlus gives you the missing methods of MapKit which are: ```imageForAnnota
 
 ### Forwarding Delegate Methods
 
-```MapViewPlus``` uses methods from ```MKMapViewDelegate```, but not all of them. It forwards all of the delegate methods except ```mapView:viewForAnnotation:```. This method won't be redirected to your subclass.
+```MapViewPlus``` uses methods from ```MKMapViewDelegate```, but not all of them. It forwards all of the delegate methods except ```mapView:viewForAnnotation:```. This method is used internally and won't be redirected to your subclass.
 
 Normally, ```MapViewPlus``` will abstract you from ```MapKit``` when you don't want to use the other methods of ```MKMapViewDelegate```. But when you want to use the other methods from ```MKMapViewDelegate```, you can easily do that without any extra efforts. Just write them down and they will get called by ```MapViewPlusDelegate```. Please see how ```mapView(_:regionDidChangeAnimated:)``` method is being called in ```DefaultCalloutViewController.swift``` even if you don't conform to ```MKMapViewDelegate```. If in the future, some new methods are added to ```MKMapViewDelegate```, they will be automagically forwarded to you by ```MapViewPlusDelegate``` without a new version of the framework. There is no wrapping occuring in the background.
 
