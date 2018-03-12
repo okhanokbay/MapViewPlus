@@ -227,6 +227,10 @@ func mapView(_ mapView: MapViewPlus, fillColorForAnchorOf calloutView: CalloutVi
 
 - Adding more templates and making them subspecs. So, anyone who needs a template won't have to download all of the templates. Any ideas or additions are appreciated.
 
+- Annotation clustering (for both iOS 11 and iOS 11-) by utilizing native clustering in iOS 11 and using an open source clustering framework for iOS 11-
+
+- Custom view option for annotations
+
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
