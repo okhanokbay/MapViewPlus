@@ -206,7 +206,7 @@ func mapView(_ mapView: MapViewPlus, fillColorForAnchorOf calloutView: CalloutVi
 
 ### DefaultCalloutView
 
-- MapViewPlus supplies you a ready-to-go template for callout view. You can see the usage example of it in the example project. Just download it and try.
+- MapViewPlus supplies you a ready-to-go template for callout view. You can see the usage example of it in the example project.
 - It allows you to specify the source of the image. It has three options:
   1) ```.downloadable(imageURL: URL, placeholder: UIImage?)```
       - Downloads the image with the help of Kingfisher framework
