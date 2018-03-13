@@ -49,7 +49,7 @@ If you don't use CocoaPods, you can drag and drop all the classes and use it in 
 
 ## How to use
 
-**1) If you are using Interface Builder, set your map view's class and module as MapViewPlus:'**
+**1) If you are using Interface Builder, set your map view's class and module as MapViewPlus:**
 
 <img src="https://github.com/okhanokbay/MapViewPlus/blob/master/Example/settings_and_module.png">
 
@@ -60,6 +60,7 @@ If you don't use CocoaPods, you can drag and drop all the classes and use it in 
 import UIKit
 import MapViewPlus
 
+// CalloutViewModel is a protocol of MapVieWPlus. Currently, it has no requirements to its conformant classes.
 class YourCalloutViewModel: CalloutViewModel {
 
   var title: String
@@ -74,7 +75,7 @@ class YourCalloutViewModel: CalloutViewModel {
 
 **3) Setup your CalloutView:**
 
-- Create any view in a xib file or programmatically:
+- Create any view in an xib file (or programmatically):
 
 <img src="https://github.com/okhanokbay/MapViewPlus/blob/master/Example/calloutview_example.png">
 
@@ -84,15 +85,12 @@ class YourCalloutViewModel: CalloutViewModel {
 import UIKit
 import MapViewPlus
 
+// CalloutViewPlus is a protocol of MapViewPlus. 
+// Currently, it has just one requirement -> func configureCallout(_ viewModel: CalloutViewModel)
 class YourCalloutView: UIView, CalloutViewPlus {
 
   @IBOutlet weak var label: UILabel!
   @IBOutlet weak var imageView: UIImageView!
-
-  override func awakeFromNib() {
-    super.awakeFromNib()
-    isUserInteractionEnabled = true
-  }
 
   func configureCallout(_ viewModel: CalloutViewModel) {
     let viewModel = viewModel as! YourCalloutViewModel
