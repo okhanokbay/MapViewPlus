@@ -120,7 +120,7 @@ class YourViewController: UIViewController {
     //Required
     mapView.delegate = self
 
-    let viewModel = YourAnnotationViewModel(title: "Cafe", image: UIImage(named: "cafe.png")!)
+    let viewModel = YourCalloutViewModel(title: "Cafe", image: UIImage(named: "cafe.png")!)
 
     let annotation = AnnotationPlus(viewModel: viewModel,
                                     coordinate: CLLocationCoordinate2DMake(50.11, 8.68))
