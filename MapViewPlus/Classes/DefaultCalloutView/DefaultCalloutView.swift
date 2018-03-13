@@ -69,8 +69,6 @@ open class DefaultCalloutView: UIView {
 		super.awakeFromNib()
 		layer.cornerRadius = 5
 		imageView.layer.cornerRadius = 2
-		
-		isUserInteractionEnabled = true
 	}
 	
 	@IBAction func buttonBackgroundTouchDown(_ sender: Any) {

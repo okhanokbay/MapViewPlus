@@ -21,11 +21,6 @@ class BasicCalloutView: UIView {
 	@IBOutlet weak var imageView: UIImageView!
 	@IBOutlet weak var button: UIButton!
 	
-	override func awakeFromNib() {
-		super.awakeFromNib()
-		isUserInteractionEnabled = true
-	}
-	
 	@IBAction func buttonTouchDown(_ sender: Any) {
 		delegate?.detailButtonTapped(withTitle: label.text!)
 	}
