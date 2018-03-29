@@ -21,14 +21,7 @@ MapViewPlus gives you the missing methods of MapKit which are: ```imageForAnnota
   4) Make it user interaction enabled (this may be easy but tricky sometimes)
   5) Scrolls map view to show the callout view completely after tapping the annotation view
   5) Even give a ready-to-use template for callout view
-  6) Forward all of the delegate methods of ```MKMapView``` to your subclass of ```MapViewPlus``` (except ```mapView:viewForAnnotation:```)
-
-
-### Forwarding Delegate Methods
-
-```MapViewPlus``` uses methods from ```MKMapViewDelegate```, but not all of them. It forwards all of the delegate methods except ```mapView:viewForAnnotation:```. This method is used internally and won't be redirected to your subclass.
-
-Normally, ```MapViewPlus``` will abstract you from ```MapKit``` when you don't want to use the other methods of ```MKMapViewDelegate```. But when you want to use the other methods from ```MKMapViewDelegate```, you can easily do that without any extra efforts. Just write them down and they will get called by ```MapViewPlusDelegate```. Please see how ```mapView(_:regionDidChangeAnimated:)``` method is being called in ```DefaultCalloutViewController.swift``` (in the example project) even if you don't conform to ```MKMapViewDelegate```. If in the future, some new methods are added to ```MKMapViewDelegate```, they will be automagically forwarded to you by ```MapViewPlusDelegate``` without a new version of the framework. There is no wrapping occuring in the background.
+  6) [Forward all of the delegate methods](#forwarding-delegate-methods) of ```MKMapView``` to your subclass of ```MapViewPlus``` (except ```mapView:viewForAnnotation:```)
 
 ## Requirements
 
@@ -228,6 +221,12 @@ func mapView(_ mapView: MapViewPlus, fillColorForAnchorOf calloutView: CalloutVi
 - Annotation clustering (for both iOS 11 and iOS 11-) by utilizing native clustering in iOS 11 and using an open source clustering framework for iOS 11-
 
 - Custom view option for annotations
+
+### Forwarding Delegate Methods
+
+```MapViewPlus``` uses methods from ```MKMapViewDelegate```, but not all of them. It forwards all of the delegate methods except ```mapView:viewForAnnotation:```. This method is used internally and won't be redirected to your subclass.
+
+Normally, ```MapViewPlus``` will abstract you from ```MapKit``` when you don't want to use the other methods of ```MKMapViewDelegate```. But when you want to use the other methods from ```MKMapViewDelegate```, you can easily do that without any extra efforts. Just write them down and they will get called by ```MapViewPlusDelegate```. Please see how ```mapView(_:regionDidChangeAnimated:)``` method is being called in ```DefaultCalloutViewController.swift``` (in the example project) even if you don't conform to ```MKMapViewDelegate```. If in the future, some new methods are added to ```MKMapViewDelegate```, they will be automagically forwarded to you by ```MapViewPlusDelegate``` without a new version of the framework. There is no wrapping occuring in the background.
 
 ## Example
 
