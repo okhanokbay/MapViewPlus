@@ -25,7 +25,6 @@ MapViewPlus gives you the missing methods of MapKit which are: ```imageForAnnota
 
 ## Requirements
 
-**VERSION 0.1.0+:**
 - Swift 4.0
 - iOS 9.0+
 
