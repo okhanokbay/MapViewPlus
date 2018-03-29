@@ -27,9 +27,9 @@ Pod::Spec.new do |s|
   s.source_files = 'MapViewPlus/Classes/**/*'
   
    s.resource_bundles = {
-     'MapViewPlus' => ['MapViewPlus/Assets/Assets.xcassets', 'MapViewPlus/Classes/DefaultCalloutView/DefaultCalloutView.xib']
+     'MapViewPlus' => ['MapViewPlus/*/Assets.xcassets', 'MapViewPlus/Classes/*/DefaultCalloutView.xib']
    }
-
+   
    s.frameworks = 'UIKit', 'MapKit'
    s.dependency 'Kingfisher', '~> 4.6.3'
    

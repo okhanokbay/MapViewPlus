@@ -29,7 +29,8 @@ import Foundation
 
 public struct ImagesHelper {
 	private static var podsBundle: Bundle {
-		return Bundle(for: MapViewPlus.self)
+		let bundle = Bundle(for: MapViewPlus.self)
+		return Bundle(url: bundle.url(forResource: "MapViewPlus", withExtension: "bundle")!)!
 	}
 	
 	private static func imageFor(name imageName: String) -> UIImage {
