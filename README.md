@@ -32,7 +32,7 @@ Normally, ```MapViewPlus``` will abstract you from ```MapKit``` when you don't w
 
 ## Requirements
 
-**VERSION 0.1.0:**
+**VERSION 0.1.0+:**
 - Swift 4.0
 - iOS 9.0+
 
