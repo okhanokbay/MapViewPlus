@@ -1,7 +1,7 @@
 # MapViewPlus
 
-[![Swift 4.0](https://img.shields.io/badge/Swift-4.0-orange.svg?style=flat)](https://developer.apple.com/swift/)
-![iOS 9.0+](https://img.shields.io/badge/iOS-9.0%2B-blue.svg)
+[![Swift 5.0](https://img.shields.io/badge/Swift-5.0-orange.svg?style=flat)](https://developer.apple.com/swift/)
+![iOS 10.0+](https://img.shields.io/badge/iOS-10.0%2B-blue.svg)
 [![Version](https://img.shields.io/cocoapods/v/MapViewPlus.svg?style=flat)](http://cocoapods.org/pods/MapViewPlus)
 [![License](https://img.shields.io/cocoapods/l/MapViewPlus.svg?style=flat)](http://cocoapods.org/pods/MapViewPlus)
 [![Platform](https://img.shields.io/cocoapods/p/MapViewPlus.svg?style=flat)](http://cocoapods.org/pods/MapViewPlus)
@@ -25,8 +25,8 @@ MapViewPlus gives you the missing methods of MapKit which are: ```imageForAnnota
 
 ## Requirements
 
-- Swift 4.0
-- iOS 9.0+
+- Swift 5.0
+- iOS 10.0+
 
 ## Installation
 
@@ -202,24 +202,6 @@ func mapView(_ mapView: MapViewPlus, fillColorForAnchorOf calloutView: CalloutVi
       - Downloads the image with the help of Kingfisher framework
   2) ```.fromBundle(image: UIImage)```
   3) ```.none```
-
-### Others
-
-- This is an MVP and will be maintained and new features will be developed. Any help is appreciated.
-
-- Uses protocol oriented MVVM approach inside the source itself. Tries to force users to use the same.
-
-- If you want to add something, you can check future plans section
-
-## Future plans
-
-- Adding Kingfisher as subspec, with other options to download images as subspecs, too.
-
-- Adding more templates and making them subspecs. So, anyone who needs a template won't have to download all of the templates. Any ideas or additions are appreciated.
-
-- Annotation clustering (for both iOS 11 and iOS 11-) by utilizing native clustering in iOS 11 and using an open source clustering framework for iOS 11-
-
-- Custom view option for annotations
 
 ### Forwarding Delegate Methods
 
