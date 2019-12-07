@@ -7,611 +7,586 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		047C4D945343F46AFF1273DE29F8A290 /* ImageView+Kingfisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E189DD4CE0194905DE786776099880A /* ImageView+Kingfisher.swift */; };
-		09A0DDE1726C527699A0C0F53482505B /* AnimatedImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97744218645011AC4C4695B08E6D8D4D /* AnimatedImageView.swift */; };
-		0CA6357476373C221D44C498AA1D65FE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E3AE42F9EED9AE22447BADCB81E0067 /* Foundation.framework */; };
-		0F755ADCEAA8BF40FF7BECCBD8B5310B /* ImageDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC5ABE250BD6B17025B610EF749F06C2 /* ImageDownloader.swift */; };
-		11ECC5C9BE0D9AE6AE8079882CB5AF75 /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EFCFC3E4E36D653AC8DF93A857CDDB7 /* Image.swift */; };
-		12CF563678704ED1369F793FA30AAEA9 /* Resource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B04434DAE7DCF464680895EF71F99E8 /* Resource.swift */; };
-		171D92BAB767E217703001B86CAF5E9E /* FormatIndicatedCacheSerializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87B722E17BD44A7A3D280614621756A4 /* FormatIndicatedCacheSerializer.swift */; };
-		270728363BC4B690C40E53B053710684 /* ImageCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2907BE3D9DF83E76DA0A5B9936A365B3 /* ImageCache.swift */; };
-		27633B6CCC26159E0CFBFD25A765D789 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E3AE42F9EED9AE22447BADCB81E0067 /* Foundation.framework */; };
-		2F288ED3641B2B4775884C462AE377E6 /* Kingfisher-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D92F7C835E81572106B3A5121EDA420D /* Kingfisher-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3845689DFB2BE4BFAD2D3C2733D7054A /* ImageTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0E0207FBB4241709BED7EFAE9581FC0 /* ImageTransition.swift */; };
-		3DA9227F3FD83241A4D4BA9DBAE405AD /* ImageModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D41286A01926344794331A1FDC052A5 /* ImageModifier.swift */; };
-		4944D5F647CB8AC061A2EE815F677939 /* Pods-MapViewPlus_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 76A58ACB5A065AB17E29ED1D3DDB1152 /* Pods-MapViewPlus_Example-dummy.m */; };
-		52416A6AC7387ECACCC45596498D96AD /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D42D148ADFF17DF1CE574ECB7AB6D9FB /* CFNetwork.framework */; };
-		52D738CE8B52FA26B29F45FA08384831 /* Kingfisher.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 231B8AB5B6F0228F4A9B86CCFA0DD997 /* Kingfisher.framework */; };
-		5AC063843F5C822D8E0DAD049DB2172C /* Filter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12733C8F027243FC699CA3E637A0BAD1 /* Filter.swift */; };
-		5B5D8AE167BD8E304CE474A9B8DBA2B4 /* Kingfisher.h in Headers */ = {isa = PBXBuildFile; fileRef = B67A632D1920A9DC3D4CF24DEC85836F /* Kingfisher.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6AE8DA783077285DFA7F210F4E779A65 /* KingfisherManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 427979D336F04ABE8BC79A205766A3AB /* KingfisherManager.swift */; };
-		6DE91B549ACD134EC80FD53601F9F0EC /* Pods-MapViewPlus_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E93AAEC30D3ECAFCBDBB43A45AE9D743 /* Pods-MapViewPlus_Tests-dummy.m */; };
-		7AE672DC4B32AF19F80EF28AD5096EDE /* UIButton+Kingfisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F4B8D9762C2732EA00A4E9BCE0BB730 /* UIButton+Kingfisher.swift */; };
-		7F0B3111D41B314575EC5A957DAFF2BA /* KingfisherOptionsInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD292E0746B2C957ED9E46AC434086D /* KingfisherOptionsInfo.swift */; };
-		811905896A193EC504089152BACE82DE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E3AE42F9EED9AE22447BADCB81E0067 /* Foundation.framework */; };
-		83F2827320539F7600AB538F /* AnnotationPlus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83F2826220539F7600AB538F /* AnnotationPlus.swift */; };
-		83F2827420539F7600AB538F /* CalloutViewPlus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83F2826320539F7600AB538F /* CalloutViewPlus.swift */; };
-		83F2827520539F7600AB538F /* MapViewPlusDelegates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83F2826420539F7600AB538F /* MapViewPlusDelegates.swift */; };
-		83F2827620539F7600AB538F /* MapViewPlusAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83F2826620539F7600AB538F /* MapViewPlusAnimator.swift */; };
-		83F2827720539F7600AB538F /* DefaultCalloutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83F2826820539F7600AB538F /* DefaultCalloutView.swift */; };
-		83F2827820539F7600AB538F /* DefaultCalloutView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 83F2826920539F7600AB538F /* DefaultCalloutView.xib */; };
-		83F2827920539F7600AB538F /* DefaultCalloutViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83F2826A20539F7600AB538F /* DefaultCalloutViewModel.swift */; };
-		83F2827A20539F7600AB538F /* DefaultCalloutViewThemeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83F2826B20539F7600AB538F /* DefaultCalloutViewThemeManager.swift */; };
-		83F2827B20539F7600AB538F /* MapViewPlus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83F2826D20539F7600AB538F /* MapViewPlus.swift */; };
-		83F2827C20539F7600AB538F /* MapViewPlusTemplateHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83F2826E20539F7600AB538F /* MapViewPlusTemplateHelper.swift */; };
-		83F2827D20539F7600AB538F /* AnchorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83F2827020539F7600AB538F /* AnchorView.swift */; };
-		83F2827E20539F7600AB538F /* CalloutAndAnchorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83F2827120539F7600AB538F /* CalloutAndAnchorView.swift */; };
-		83F2828020539F9800AB538F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83F2827F20539F9800AB538F /* Assets.xcassets */; };
-		83F282832053A51800AB538F /* ImagesHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83F282822053A51800AB538F /* ImagesHelper.swift */; };
-		8EC9D6F20C51EE69AAD3BF735E2085FD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97B126E0B3E4A1D705BB143D77F46D3B /* UIKit.framework */; };
-		923EB9487045D3297D9932193420D597 /* ImageProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27BBEE5BBF6DF591DC71B58E93FBEDD1 /* ImageProcessor.swift */; };
-		A5D6F6019A80BBD9A4CDD875327315C7 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7566452D0F616FE266556DE69759537A /* MapKit.framework */; };
-		A8096F51DB82ADD9F002809E064F98F9 /* Indicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06308BD0CBAAB2A903D1577578547BE0 /* Indicator.swift */; };
-		AA276321E3A96169B102E2B4EFF4F02D /* CacheSerializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34CAEDC5E957FD53E3255996E4D648A1 /* CacheSerializer.swift */; };
-		B6AEA327B99A61987C48BE9F4EFC7DF3 /* MapViewPlus-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 07E2A8B1379C87E0252047F7EFCB3A06 /* MapViewPlus-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BCDA6101487ADAF8CE25A92727B57C24 /* Kingfisher-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 46BE5F2876E725A0356E6B93EBA44559 /* Kingfisher-dummy.m */; };
-		D205E953E843C195D4D27A6960483863 /* RequestModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 560B2502E44ABBB72BEFF20095281CF0 /* RequestModifier.swift */; };
-		D42E1C9C953771026150086BF7BEBD2B /* ThreadHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06368974BE4F06FF19F556D68EDD2146 /* ThreadHelper.swift */; };
-		D472B17C81637E5A348997920034CC8E /* ImagePrefetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 392B0DA599E47D642B492C3E3A4BA847 /* ImagePrefetcher.swift */; };
-		D6151C244612A79238EAD22287F41E70 /* Pods-MapViewPlus_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 30A474B5C732B85F211A9D68F3F8D755 /* Pods-MapViewPlus_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DC06697DF60FDAC3688CFAF891C147E0 /* MapViewPlus-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D7FC496DDF89E3549DEA8D31A31EC574 /* MapViewPlus-dummy.m */; };
-		E0DC63E3FEA808360D265AC495098144 /* String+MD5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA1BEFBB065DED07B52F926E26385C3 /* String+MD5.swift */; };
-		E84966064FC1C0803BE923842202ACEF /* Placeholder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 307F48AED29EBA0E9B86FB31F6B7191E /* Placeholder.swift */; };
-		EC6CC2A25496B74BF5D3A09FEF77660A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E3AE42F9EED9AE22447BADCB81E0067 /* Foundation.framework */; };
-		EC8FEE8D3905F0BB594D93178BD8DE4E /* MapViewPlus.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 47A92100E90C719BA2D2F11E08FE618C /* MapViewPlus.bundle */; };
-		F377FABD1063C4837528EEEEA7CFA133 /* Pods-MapViewPlus_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6505C50BE9144E4A69554EC1E1F50810 /* Pods-MapViewPlus_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F949B79CF0DE1A67721B764EC95D20AD /* Kingfisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF9237157A14F8E879C804482234E36D /* Kingfisher.swift */; };
+		00B48FBC95D04AEA853B9AE665D1E8E1 /* ImageFormat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57B88C3D60C34686BFE89B30F1875BCE /* ImageFormat.swift */; };
+		041EB9FA2DCEE0A038C416616616D8A4 /* Placeholder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564277698B131DA03409CC523426422D /* Placeholder.swift */; };
+		06964A0F0E04244079840833C3ED7178 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6920298DEF7B8AC86D164EE72E98B489 /* Assets.xcassets */; };
+		07C8948559CCE74CFE5903D4B9C858BD /* ExtensionHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E79E315E13EB0D6CF6C557A7F0D899A /* ExtensionHelpers.swift */; };
+		092C84399199A063781DAF6713C7ADE3 /* ImageCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDF4C79309C97AF5E730C8DC5C51A84D /* ImageCache.swift */; };
+		0C0F7A3312E0984DE8B3857434D8A542 /* MapViewPlus.swift in Sources */ = {isa = PBXBuildFile; fileRef = D691D0703D762C3F711420AC97E76F9C /* MapViewPlus.swift */; };
+		1388453A0BFFADA63CDB60C211FDEA89 /* ImageTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BB6D3DCAFE0A615F54A20C8D0C294AF /* ImageTransition.swift */; };
+		139391CC8089FB18822758ABE22F04AD /* AnnotationPlus.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDE21CEBA5702397A691CDFE7053603F /* AnnotationPlus.swift */; };
+		14AA684EBDBF925E4AC4D118F69A846B /* Filter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F790D3DF065503F591E12E5109820505 /* Filter.swift */; };
+		157EDD786BB4C0B18F1B41E765D1BE4C /* DefaultCalloutViewThemeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A10FC0998CDBCCF0C0382FB6E1C6493 /* DefaultCalloutViewThemeManager.swift */; };
+		1B14B0AFAD836E3694F74730177DAE30 /* Kingfisher-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E1E979F51BCDA58CC84984EE77237AC /* Kingfisher-dummy.m */; };
+		203F98456AEFAAA6B288FADB0975CFCE /* Kingfisher-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 16C568EB5D7B306D583DE0E00990D0D8 /* Kingfisher-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		212B4D0416F2F00EB61CE5338A73C24E /* SessionDataTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED293611EEF7E3EA5FC6D87487C4CDE /* SessionDataTask.swift */; };
+		21FEB4966B1C9F1C1BBDB5EE9E337610 /* CacheSerializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BFD637F6054C8E0BD29EC29CD98C2DD /* CacheSerializer.swift */; };
+		241E465897A56A5EE5FA73FEAEDAB450 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA83B7D9210863527B101AFCBF42D06A /* Result.swift */; };
+		257B0FEB5F806A21583C3E9B4F16F9E0 /* Source.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2D9B98E7B22B782CB828C2D1D50064E /* Source.swift */; };
+		297435460DA621FBE619180F44720126 /* DefaultCalloutView.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF764A8E4BCD4ED62A5DC53BEEDC9DAF /* DefaultCalloutView.xib */; };
+		2FAF11C9655E9055DE4242C170D47905 /* CalloutAndAnchorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FF4576533474F8A3614B7DCADFB181E /* CalloutAndAnchorView.swift */; };
+		32ADB348BDDEE0B27ED4C125694D6D02 /* Resource.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7CCFB0A80DE708D1524F8A65B6FB358 /* Resource.swift */; };
+		36A814BB8A755D68D5E3D96C4EAADB6E /* ImageDrawing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 729DDC4F78A85727CABCDDA697E9FDCF /* ImageDrawing.swift */; };
+		3896AA21EC5D3EB7B522FCC66CAE2D69 /* ImageDownloaderDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82679051652D18304D43568B7F540DCF /* ImageDownloaderDelegate.swift */; };
+		39859B2D9361BDC07378EF4F015F2419 /* AnchorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49FC020A3525DDF68A1A6AAFFF3E7A7B /* AnchorView.swift */; };
+		3C1DFF8C213664BDB15F04ABA7FE4176 /* GIFAnimatedImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD857207E49094F7BE8C31D056ED2034 /* GIFAnimatedImage.swift */; };
+		3EBA483E87C18A32151CE08617F0E00C /* KingfisherError.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA995D4CD93A651C8E3B78CE43451098 /* KingfisherError.swift */; };
+		3F30794DF549311E375D28108DCF09EB /* DefaultCalloutView.xib in Sources */ = {isa = PBXBuildFile; fileRef = EF764A8E4BCD4ED62A5DC53BEEDC9DAF /* DefaultCalloutView.xib */; };
+		4202812BC7ADF5D624A7A2EFBCB650D3 /* CalloutViewPlus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E27008FB8E6EED76D153B968178686 /* CalloutViewPlus.swift */; };
+		4547D2497788CEF8DB3CE88A9E724266 /* ImagePrefetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = C66E2A62BB54C85F4D62B7894F4AE4ED /* ImagePrefetcher.swift */; };
+		4F5E0DC4752A4F8AED457D83141D1264 /* Box.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7031C40A6606617901E2C032EE5CA68F /* Box.swift */; };
+		57373DBECB85E0F33BF755AC1E9B55B6 /* Kingfisher.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB66A0DCF86D610470074F5F50570A00 /* Kingfisher.framework */; };
+		5B2C4CD6191E9E17463DF4DF3E5169E8 /* ImageModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494C5DC712140549510B6F8BD785911D /* ImageModifier.swift */; };
+		5D4759FF7D34320BC1BFE3171BD83250 /* Kingfisher.h in Headers */ = {isa = PBXBuildFile; fileRef = 06925D1BB858852D36CBC110DE6A2277 /* Kingfisher.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5D8B461677B082D9B12243AF68D7D329 /* RequestModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB3614D97C86219A710DDEF4BC7FA0E /* RequestModifier.swift */; };
+		5E5E1763B025CBBC725E0E047E52EEE3 /* ImagesHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = F17B9A7B9BF10F7FF03A96BF7CE1DD73 /* ImagesHelper.swift */; };
+		5FAD8CAA06794CE892404AD9C408DF19 /* ImageProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D475C9E3E8965A4385F4A28E11EB5E85 /* ImageProcessor.swift */; };
+		609DF3B14F4CC7EA19C41423341C43D7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B59F60950C2AEE5986844B0CE2AAC565 /* Foundation.framework */; };
+		669D7BC5C455D1A704D2B04B131DDA9B /* MapViewPlusAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB1A211BA53EF3CE7B2B016A69F50673 /* MapViewPlusAnimator.swift */; };
+		6711AAEF0D7E449358BE961426FEECAE /* DefaultCalloutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 031A74A9DDDE85859117B859F6CFE76B /* DefaultCalloutView.swift */; };
+		6729B1041A4D0849DFF33A6C81FD9310 /* MapViewPlus.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 613DDC9439CF871C4C3967D569CB583A /* MapViewPlus.bundle */; };
+		67776A8ED6E3B931649AD03090E61BBC /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26EADA6310C7C5DAF689C43003CB3C1A /* Accelerate.framework */; };
+		696DE0303F71171A3E4A9C4258F0A5D5 /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD9F953EC87A827408298A8B7CC1F7AE /* Image.swift */; };
+		6B3C32A5B5296C6B58EEADA1330717EB /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51D1E492782C3FECBD4A66BD8FEEBFA6 /* CFNetwork.framework */; };
+		6D4D1EE91658CEE1390159F015320D55 /* ImageDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73F7044A09AA8A2EBD61F34243A9BBC9 /* ImageDataProvider.swift */; };
+		755E6E11284F28E57A17A1BC9B3FCC35 /* MapViewPlus-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6AF179D68255F2FED3EDCD6416288C02 /* MapViewPlus-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		78ACC1F12406F3762F882273E421AD93 /* AuthenticationChallengeResponsable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F59ADADC19FB1135F4824C7D1EB016A /* AuthenticationChallengeResponsable.swift */; };
+		7954A2E2DFB0092C64C9E223B7A4D744 /* ImageProgressive.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE1FA204C5908C3BCE7D1B88EE42A873 /* ImageProgressive.swift */; };
+		79E50736E21BB37E650AAFA59D940B90 /* FormatIndicatedCacheSerializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC0DDD6AB27331D4B13D28B3457209F /* FormatIndicatedCacheSerializer.swift */; };
+		7A55B0BE93922D01082931F8C242A226 /* SizeExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 603175EBD594C09D59D80D45F304E2C9 /* SizeExtensions.swift */; };
+		7CB51C5EE5EB410D843BE8EA48779F71 /* ImageDataProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C3B6F7D6945FE6DBACAABBD7BC229C /* ImageDataProcessor.swift */; };
+		7DF6286BF0B2C0A02498CA9D22D9FD45 /* Kingfisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6A4DB1B5EA775EC0309D994148BB332 /* Kingfisher.swift */; };
+		7E333F230B566E0B4ACB26CF957C6B43 /* MapViewPlusDelegates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434F5A95779EF087AF8D98BF7EA1A516 /* MapViewPlusDelegates.swift */; };
+		823ECDAF70D96AD44791756F2B13B7C1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3543AB01CAA0D8EED5227ABEEE28A05A /* UIKit.framework */; };
+		83F252A836C0DECD4A2DB3FD1F28E31A /* RedirectHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8450DF9065F8E291BAD9672243CD2A3C /* RedirectHandler.swift */; };
+		8538DA93E20F89D2DAB447709057427B /* Delegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C7DCDB60E3CD84A1404A2E0B0A18C7 /* Delegate.swift */; };
+		96B3DBA58E0529C7D8CEC8092BD86020 /* MapViewPlusTemplateHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96FC926BB4A65CDB2F92F266B4291B79 /* MapViewPlusTemplateHelper.swift */; };
+		A01D0E20E670C29E4F36C0EAB9C96D8A /* Storage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BA433D81757F54CAE2211E6D3B4FAB5 /* Storage.swift */; };
+		A3765576E13E2188F1C8AD16104360A8 /* MemoryStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCB4D18562B1F2603109FB29539B952B /* MemoryStorage.swift */; };
+		AC31ABEB2D79702FFF36FB01F7157DDA /* ImageDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = C534DC61FFD8CE7ADE2BBFF22AB9417D /* ImageDownloader.swift */; };
+		ACB9D36043B85C46D0C94266E7F1DBA2 /* UIButton+Kingfisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 530486E5B2E1A576BB688EE7E66B9B12 /* UIButton+Kingfisher.swift */; };
+		ADEA1883A271AAEBB15FEAE77F7EFB6C /* KingfisherManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 912CAAA418FD5E726FAB83FE3EACFDAE /* KingfisherManager.swift */; };
+		AEF4683E4D85E622C6B36EA2A5508D44 /* Pods-MapViewPlus_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 45E87BA031C1BEE171134617F2046C6E /* Pods-MapViewPlus_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B0E9E870B0A6E278B2840B1469514912 /* KingfisherOptionsInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26F43A66582A19A12D32A635A0FE3646 /* KingfisherOptionsInfo.swift */; };
+		C000E10FB1EC09133D66D8E537F3FEFA /* DiskStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B57C775790ABD0DCAC7971792DB5FA1 /* DiskStorage.swift */; };
+		C21EB8249C652ED720BDDF0AF3A542CB /* String+MD5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BECA832319A1E6F1552796A929E34F1 /* String+MD5.swift */; };
+		C57309C3611CBE6E9C3120B8115A574B /* Runtime.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6BF45C818C627946CA4BA681D76629C /* Runtime.swift */; };
+		CC6CBD6D09F3487C8119671F0709E8A6 /* Deprecated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49D8B357489EFD798A80CB1C0056A4FA /* Deprecated.swift */; };
+		CE09ED6A621D2A33CD07586E0F999AA1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B59F60950C2AEE5986844B0CE2AAC565 /* Foundation.framework */; };
+		DAF9A65290ECDD42CC76DF369C0E78BA /* Indicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CFF5057078BFA55BAAECDD1AB6ED74B /* Indicator.swift */; };
+		DD309B2D0FC16DC15307A917449C4A7F /* SessionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B91033AEDB0636D959280105930D1AC5 /* SessionDelegate.swift */; };
+		DF79FA0C7174AC3FE30C573DD3942E87 /* Pods-MapViewPlus_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B24125FB4B63BECD791B25812F421C53 /* Pods-MapViewPlus_Example-dummy.m */; };
+		E6786B0C96039AB39F4FFA54AE5517F1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B59F60950C2AEE5986844B0CE2AAC565 /* Foundation.framework */; };
+		EFD0EB8AC003DAE8B5BA5977427D1D30 /* DefaultCalloutViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67218DC3B60007BCC87FFEB70FF56CEA /* DefaultCalloutViewModel.swift */; };
+		F222522EC49C600A5FD1E748B2307F03 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C44DEA1ECADC54669D6C86D56F6C718A /* MapKit.framework */; };
+		F51B22D93BB90CB5C91FD1FE71B7D987 /* ImageView+Kingfisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B2B2D4475075536A24EA894B13642B7 /* ImageView+Kingfisher.swift */; };
+		F6DDC4DD1F338C942261B19726F2A152 /* AnimatedImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD2E919CE6C719E1481761A11D9118C /* AnimatedImageView.swift */; };
+		F92F8C526C438698D0A793ECFF41B2D9 /* CallbackQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 668509C5412AFE3A3E4FB11ABE74306E /* CallbackQueue.swift */; };
+		FA5CAC3E51CA4318129D3E670E10795D /* MapViewPlus-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ABF02D589EC306E61ECECFD7B5D93CA7 /* MapViewPlus-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		42934B5647F80A2B1BB8D1AA84DB3306 /* PBXContainerItemProxy */ = {
+		57777BA42AFF0E0CF99A522813BB1F46 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 6F712943B3C5592E82604940D11CE08A;
+			remoteGlobalIDString = AB3F557308DD735B3427E587B18B8A80;
+			remoteInfo = "MapViewPlus-MapViewPlus";
+		};
+		ADE04B3652C8B43F8256BDC2A22BEE62 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E8022D22FAA6690B5E1C379C1BCE1491;
 			remoteInfo = Kingfisher;
 		};
-		60665E3130AFC608007BAC62F8E8E677 /* PBXContainerItemProxy */ = {
+		AEDFEA29F789D6DCB5DB4D1441B9BD0D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 604127B94882DD40B315E3ECC113FD36;
+			remoteGlobalIDString = 104F1045445BF4FD4CDBD09DBF9281B5;
 			remoteInfo = MapViewPlus;
 		};
-		8E11D47A6AFB936EB2F81CF74019C3CD /* PBXContainerItemProxy */ = {
+		EB68284FBFB1E01C202824BAD32D3BE3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 6F712943B3C5592E82604940D11CE08A;
+			remoteGlobalIDString = E8022D22FAA6690B5E1C379C1BCE1491;
 			remoteInfo = Kingfisher;
-		};
-		F5E6F9523A909B47B1D1D561D2881966 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = F3755D0C546E1F77E1F91AF972F495F5;
-			remoteInfo = "MapViewPlus-MapViewPlus";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		06308BD0CBAAB2A903D1577578547BE0 /* Indicator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Indicator.swift; path = Sources/Indicator.swift; sourceTree = "<group>"; };
-		06368974BE4F06FF19F556D68EDD2146 /* ThreadHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ThreadHelper.swift; path = Sources/ThreadHelper.swift; sourceTree = "<group>"; };
-		07E2A8B1379C87E0252047F7EFCB3A06 /* MapViewPlus-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MapViewPlus-umbrella.h"; sourceTree = "<group>"; };
-		0EFCFC3E4E36D653AC8DF93A857CDDB7 /* Image.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Image.swift; path = Sources/Image.swift; sourceTree = "<group>"; };
-		0FA1BEFBB065DED07B52F926E26385C3 /* String+MD5.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+MD5.swift"; path = "Sources/String+MD5.swift"; sourceTree = "<group>"; };
-		108930A23F8A32B5E0C1B23B77B126CD /* Pods-MapViewPlus_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MapViewPlus_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		114E1261C72FBBD964322D4CB8557775 /* Kingfisher.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Kingfisher.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		12733C8F027243FC699CA3E637A0BAD1 /* Filter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Filter.swift; path = Sources/Filter.swift; sourceTree = "<group>"; };
-		13168B311BFC8A660879E1E810961F3F /* Pods_MapViewPlus_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MapViewPlus_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		1B04434DAE7DCF464680895EF71F99E8 /* Resource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Resource.swift; path = Sources/Resource.swift; sourceTree = "<group>"; };
-		1C58A7617D1E479D66C4CD80C2948A01 /* Pods-MapViewPlus_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MapViewPlus_Example-resources.sh"; sourceTree = "<group>"; };
-		231B8AB5B6F0228F4A9B86CCFA0DD997 /* Kingfisher.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Kingfisher.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		27BBEE5BBF6DF591DC71B58E93FBEDD1 /* ImageProcessor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageProcessor.swift; path = Sources/ImageProcessor.swift; sourceTree = "<group>"; };
-		2907BE3D9DF83E76DA0A5B9936A365B3 /* ImageCache.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageCache.swift; path = Sources/ImageCache.swift; sourceTree = "<group>"; };
-		2D41286A01926344794331A1FDC052A5 /* ImageModifier.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageModifier.swift; path = Sources/ImageModifier.swift; sourceTree = "<group>"; };
-		3005008205E23DD8EA62C35AB658C2E1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		307F48AED29EBA0E9B86FB31F6B7191E /* Placeholder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Placeholder.swift; path = Sources/Placeholder.swift; sourceTree = "<group>"; };
-		30A474B5C732B85F211A9D68F3F8D755 /* Pods-MapViewPlus_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MapViewPlus_Tests-umbrella.h"; sourceTree = "<group>"; };
-		34CAEDC5E957FD53E3255996E4D648A1 /* CacheSerializer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CacheSerializer.swift; path = Sources/CacheSerializer.swift; sourceTree = "<group>"; };
-		373577B153D5F93727D158AF5D1DC538 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		375705A8FEA1AE1B3F2D34370C18332C /* Pods-MapViewPlus_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MapViewPlus_Tests-resources.sh"; sourceTree = "<group>"; };
-		392B0DA599E47D642B492C3E3A4BA847 /* ImagePrefetcher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImagePrefetcher.swift; path = Sources/ImagePrefetcher.swift; sourceTree = "<group>"; };
-		39C2434217FFA1BABF387118E7B8FD55 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3A12B7E996B1DD76443BBF1F0F097369 /* Pods-MapViewPlus_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MapViewPlus_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		3A1C0BA43C2C5FF1F14351AD78F262FC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		427979D336F04ABE8BC79A205766A3AB /* KingfisherManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KingfisherManager.swift; path = Sources/KingfisherManager.swift; sourceTree = "<group>"; };
-		46BE5F2876E725A0356E6B93EBA44559 /* Kingfisher-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Kingfisher-dummy.m"; sourceTree = "<group>"; };
-		47A92100E90C719BA2D2F11E08FE618C /* MapViewPlus.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MapViewPlus.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		4E189DD4CE0194905DE786776099880A /* ImageView+Kingfisher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ImageView+Kingfisher.swift"; path = "Sources/ImageView+Kingfisher.swift"; sourceTree = "<group>"; };
-		560B2502E44ABBB72BEFF20095281CF0 /* RequestModifier.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RequestModifier.swift; path = Sources/RequestModifier.swift; sourceTree = "<group>"; };
-		5CC80DFFF51C1083EE4758D4F3614426 /* MapViewPlus.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MapViewPlus.xcconfig; sourceTree = "<group>"; };
-		6505C50BE9144E4A69554EC1E1F50810 /* Pods-MapViewPlus_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MapViewPlus_Example-umbrella.h"; sourceTree = "<group>"; };
-		653F645AF3DBBBC66B4C6C08863B0C56 /* Pods-MapViewPlus_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MapViewPlus_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		681FBBDA5A6332CADC8624F5E288E24A /* Kingfisher.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Kingfisher.xcconfig; sourceTree = "<group>"; };
-		69E1E7F5F1A10424F6C3A91A338E6136 /* Kingfisher.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Kingfisher.modulemap; sourceTree = "<group>"; };
-		6E3AE42F9EED9AE22447BADCB81E0067 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		6FD1F8A60679B54627B54534CA743A79 /* Pods_MapViewPlus_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MapViewPlus_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		70D1A7B896AB04A0CCA65164D7EAC9C9 /* MapViewPlus.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = MapViewPlus.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		751E41747ABC6967A243EE9CC6EA73ED /* Pods-MapViewPlus_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MapViewPlus_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		7566452D0F616FE266556DE69759537A /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/MapKit.framework; sourceTree = DEVELOPER_DIR; };
-		76A58ACB5A065AB17E29ED1D3DDB1152 /* Pods-MapViewPlus_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MapViewPlus_Example-dummy.m"; sourceTree = "<group>"; };
-		7C3D8F5A43A82914AE00333E86A66533 /* Pods-MapViewPlus_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MapViewPlus_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		7F4B8D9762C2732EA00A4E9BCE0BB730 /* UIButton+Kingfisher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIButton+Kingfisher.swift"; path = "Sources/UIButton+Kingfisher.swift"; sourceTree = "<group>"; };
-		83F2826220539F7600AB538F /* AnnotationPlus.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnnotationPlus.swift; sourceTree = "<group>"; };
-		83F2826320539F7600AB538F /* CalloutViewPlus.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalloutViewPlus.swift; sourceTree = "<group>"; };
-		83F2826420539F7600AB538F /* MapViewPlusDelegates.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewPlusDelegates.swift; sourceTree = "<group>"; };
-		83F2826620539F7600AB538F /* MapViewPlusAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewPlusAnimator.swift; sourceTree = "<group>"; };
-		83F2826820539F7600AB538F /* DefaultCalloutView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultCalloutView.swift; sourceTree = "<group>"; };
-		83F2826920539F7600AB538F /* DefaultCalloutView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DefaultCalloutView.xib; sourceTree = "<group>"; };
-		83F2826A20539F7600AB538F /* DefaultCalloutViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultCalloutViewModel.swift; sourceTree = "<group>"; };
-		83F2826B20539F7600AB538F /* DefaultCalloutViewThemeManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultCalloutViewThemeManager.swift; sourceTree = "<group>"; };
-		83F2826D20539F7600AB538F /* MapViewPlus.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewPlus.swift; sourceTree = "<group>"; };
-		83F2826E20539F7600AB538F /* MapViewPlusTemplateHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewPlusTemplateHelper.swift; sourceTree = "<group>"; };
-		83F2827020539F7600AB538F /* AnchorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnchorView.swift; sourceTree = "<group>"; };
-		83F2827120539F7600AB538F /* CalloutAndAnchorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalloutAndAnchorView.swift; sourceTree = "<group>"; };
-		83F2827F20539F9800AB538F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		83F282822053A51800AB538F /* ImagesHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagesHelper.swift; sourceTree = "<group>"; };
-		87B722E17BD44A7A3D280614621756A4 /* FormatIndicatedCacheSerializer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FormatIndicatedCacheSerializer.swift; path = Sources/FormatIndicatedCacheSerializer.swift; sourceTree = "<group>"; };
-		8DD4107177B09913A3CAFD0351D200A2 /* Pods-MapViewPlus_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MapViewPlus_Example.release.xcconfig"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		97744218645011AC4C4695B08E6D8D4D /* AnimatedImageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnimatedImageView.swift; path = Sources/AnimatedImageView.swift; sourceTree = "<group>"; };
-		97B126E0B3E4A1D705BB143D77F46D3B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		9B52524D4874E8524B7BFA8B7A8EA826 /* MapViewPlus.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MapViewPlus.modulemap; sourceTree = "<group>"; };
-		9C6624165D2320306DC68B880BF1EE02 /* Kingfisher-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Kingfisher-prefix.pch"; sourceTree = "<group>"; };
-		9E80A0D4F0FEC4E2D1B3369C5F2AE03C /* ResourceBundle-MapViewPlus-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-MapViewPlus-Info.plist"; sourceTree = "<group>"; };
-		9F6FBA07116768624D1D4FC6A7001DAF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A0E8C538237FEF0552836C78F05857B2 /* Pods-MapViewPlus_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MapViewPlus_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		A2BD2955CB27113A79524F9DB2631A45 /* Pods-MapViewPlus_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MapViewPlus_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		A630F91536DA456C481B1AD217F5DBC2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AABB549B6CA25B21CF7A3D2F4353039C /* Pods-MapViewPlus_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MapViewPlus_Tests.modulemap"; sourceTree = "<group>"; };
-		B67A632D1920A9DC3D4CF24DEC85836F /* Kingfisher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Kingfisher.h; path = Sources/Kingfisher.h; sourceTree = "<group>"; };
-		C0E0207FBB4241709BED7EFAE9581FC0 /* ImageTransition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageTransition.swift; path = Sources/ImageTransition.swift; sourceTree = "<group>"; };
-		CBD292E0746B2C957ED9E46AC434086D /* KingfisherOptionsInfo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KingfisherOptionsInfo.swift; path = Sources/KingfisherOptionsInfo.swift; sourceTree = "<group>"; };
-		CF64EA4AD07058A03CA7C60114FF950B /* Pods-MapViewPlus_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MapViewPlus_Example-frameworks.sh"; sourceTree = "<group>"; };
-		D42D148ADFF17DF1CE574ECB7AB6D9FB /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
-		D7FC496DDF89E3549DEA8D31A31EC574 /* MapViewPlus-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MapViewPlus-dummy.m"; sourceTree = "<group>"; };
-		D92F7C835E81572106B3A5121EDA420D /* Kingfisher-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Kingfisher-umbrella.h"; sourceTree = "<group>"; };
-		DC5ABE250BD6B17025B610EF749F06C2 /* ImageDownloader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageDownloader.swift; path = Sources/ImageDownloader.swift; sourceTree = "<group>"; };
-		DF9237157A14F8E879C804482234E36D /* Kingfisher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Kingfisher.swift; path = Sources/Kingfisher.swift; sourceTree = "<group>"; };
-		E42788E2E71602234F69912D2A3C6942 /* MapViewPlus.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MapViewPlus.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E93AAEC30D3ECAFCBDBB43A45AE9D743 /* Pods-MapViewPlus_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MapViewPlus_Tests-dummy.m"; sourceTree = "<group>"; };
-		EF052DB78F4DDAE18EF9725C52F1ED4A /* Pods-MapViewPlus_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MapViewPlus_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		FADBE8918EDB8633F61742CC7A4D45FC /* MapViewPlus-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MapViewPlus-prefix.pch"; sourceTree = "<group>"; };
-		FE94018118AFF9C2FAD9478B1660EAD3 /* Pods-MapViewPlus_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MapViewPlus_Example.modulemap"; sourceTree = "<group>"; };
+		031A74A9DDDE85859117B859F6CFE76B /* DefaultCalloutView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DefaultCalloutView.swift; sourceTree = "<group>"; };
+		06925D1BB858852D36CBC110DE6A2277 /* Kingfisher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Kingfisher.h; path = Sources/Kingfisher.h; sourceTree = "<group>"; };
+		0BFD637F6054C8E0BD29EC29CD98C2DD /* CacheSerializer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CacheSerializer.swift; path = Sources/Cache/CacheSerializer.swift; sourceTree = "<group>"; };
+		0ED293611EEF7E3EA5FC6D87487C4CDE /* SessionDataTask.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionDataTask.swift; path = Sources/Networking/SessionDataTask.swift; sourceTree = "<group>"; };
+		0FBB843F5B5540B39350C7C741B2B2D2 /* MapViewPlus.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MapViewPlus.modulemap; sourceTree = "<group>"; };
+		16C568EB5D7B306D583DE0E00990D0D8 /* Kingfisher-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Kingfisher-umbrella.h"; sourceTree = "<group>"; };
+		18C7DCDB60E3CD84A1404A2E0B0A18C7 /* Delegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Delegate.swift; path = Sources/Utility/Delegate.swift; sourceTree = "<group>"; };
+		19C7FE5DD11E544916A20ABD948FCEB7 /* MapViewPlus-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MapViewPlus-prefix.pch"; sourceTree = "<group>"; };
+		1B1FCCA6DC18CADAB55CD7B379636BF6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		1BA433D81757F54CAE2211E6D3B4FAB5 /* Storage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Storage.swift; path = Sources/Cache/Storage.swift; sourceTree = "<group>"; };
+		1CFF5057078BFA55BAAECDD1AB6ED74B /* Indicator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Indicator.swift; path = Sources/Views/Indicator.swift; sourceTree = "<group>"; };
+		2069B53FD0E908944D756408810C88CE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		26EADA6310C7C5DAF689C43003CB3C1A /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Accelerate.framework; sourceTree = DEVELOPER_DIR; };
+		26F43A66582A19A12D32A635A0FE3646 /* KingfisherOptionsInfo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KingfisherOptionsInfo.swift; path = Sources/General/KingfisherOptionsInfo.swift; sourceTree = "<group>"; };
+		2B57C775790ABD0DCAC7971792DB5FA1 /* DiskStorage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DiskStorage.swift; path = Sources/Cache/DiskStorage.swift; sourceTree = "<group>"; };
+		2FF4576533474F8A3614B7DCADFB181E /* CalloutAndAnchorView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CalloutAndAnchorView.swift; sourceTree = "<group>"; };
+		3203FF12F06BCD529B379CF529955151 /* Pods-MapViewPlus_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MapViewPlus_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		3543AB01CAA0D8EED5227ABEEE28A05A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		35F07E21322473E2DC58D154AB534DC9 /* Pods-MapViewPlus_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MapViewPlus_Example-Info.plist"; sourceTree = "<group>"; };
+		37C998021DF1C7299AB59B0DDD79BF29 /* Pods-MapViewPlus_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MapViewPlus_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3FB8A498C655110BA5A039DA3D3C329D /* MapViewPlus.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MapViewPlus.framework; path = MapViewPlus.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		40E27008FB8E6EED76D153B968178686 /* CalloutViewPlus.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CalloutViewPlus.swift; sourceTree = "<group>"; };
+		434F5A95779EF087AF8D98BF7EA1A516 /* MapViewPlusDelegates.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MapViewPlusDelegates.swift; sourceTree = "<group>"; };
+		45E87BA031C1BEE171134617F2046C6E /* Pods-MapViewPlus_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MapViewPlus_Example-umbrella.h"; sourceTree = "<group>"; };
+		494C5DC712140549510B6F8BD785911D /* ImageModifier.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageModifier.swift; path = Sources/Networking/ImageModifier.swift; sourceTree = "<group>"; };
+		49D8B357489EFD798A80CB1C0056A4FA /* Deprecated.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Deprecated.swift; path = Sources/General/Deprecated.swift; sourceTree = "<group>"; };
+		49FC020A3525DDF68A1A6AAFFF3E7A7B /* AnchorView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AnchorView.swift; sourceTree = "<group>"; };
+		4B2B2D4475075536A24EA894B13642B7 /* ImageView+Kingfisher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ImageView+Kingfisher.swift"; path = "Sources/Extensions/ImageView+Kingfisher.swift"; sourceTree = "<group>"; };
+		4BB6D3DCAFE0A615F54A20C8D0C294AF /* ImageTransition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageTransition.swift; path = Sources/Image/ImageTransition.swift; sourceTree = "<group>"; };
+		5084878DC7658D1C8F0D24F9DF110E07 /* Kingfisher.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Kingfisher.xcconfig; sourceTree = "<group>"; };
+		51D1E492782C3FECBD4A66BD8FEEBFA6 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
+		530486E5B2E1A576BB688EE7E66B9B12 /* UIButton+Kingfisher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIButton+Kingfisher.swift"; path = "Sources/Extensions/UIButton+Kingfisher.swift"; sourceTree = "<group>"; };
+		564277698B131DA03409CC523426422D /* Placeholder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Placeholder.swift; path = Sources/Image/Placeholder.swift; sourceTree = "<group>"; };
+		57B88C3D60C34686BFE89B30F1875BCE /* ImageFormat.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageFormat.swift; path = Sources/Image/ImageFormat.swift; sourceTree = "<group>"; };
+		5BECA832319A1E6F1552796A929E34F1 /* String+MD5.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+MD5.swift"; path = "Sources/Utility/String+MD5.swift"; sourceTree = "<group>"; };
+		5E1E979F51BCDA58CC84984EE77237AC /* Kingfisher-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Kingfisher-dummy.m"; sourceTree = "<group>"; };
+		603175EBD594C09D59D80D45F304E2C9 /* SizeExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SizeExtensions.swift; path = Sources/Utility/SizeExtensions.swift; sourceTree = "<group>"; };
+		613DDC9439CF871C4C3967D569CB583A /* MapViewPlus.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = MapViewPlus.bundle; path = "MapViewPlus-MapViewPlus.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		668509C5412AFE3A3E4FB11ABE74306E /* CallbackQueue.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CallbackQueue.swift; path = Sources/Utility/CallbackQueue.swift; sourceTree = "<group>"; };
+		67218DC3B60007BCC87FFEB70FF56CEA /* DefaultCalloutViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DefaultCalloutViewModel.swift; sourceTree = "<group>"; };
+		6920298DEF7B8AC86D164EE72E98B489 /* Assets.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6AF179D68255F2FED3EDCD6416288C02 /* MapViewPlus-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MapViewPlus-umbrella.h"; sourceTree = "<group>"; };
+		7031C40A6606617901E2C032EE5CA68F /* Box.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Box.swift; path = Sources/Utility/Box.swift; sourceTree = "<group>"; };
+		729DDC4F78A85727CABCDDA697E9FDCF /* ImageDrawing.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageDrawing.swift; path = Sources/Image/ImageDrawing.swift; sourceTree = "<group>"; };
+		73F7044A09AA8A2EBD61F34243A9BBC9 /* ImageDataProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageDataProvider.swift; path = Sources/General/ImageSource/ImageDataProvider.swift; sourceTree = "<group>"; };
+		7E79E315E13EB0D6CF6C557A7F0D899A /* ExtensionHelpers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExtensionHelpers.swift; path = Sources/Utility/ExtensionHelpers.swift; sourceTree = "<group>"; };
+		7F59ADADC19FB1135F4824C7D1EB016A /* AuthenticationChallengeResponsable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AuthenticationChallengeResponsable.swift; path = Sources/Networking/AuthenticationChallengeResponsable.swift; sourceTree = "<group>"; };
+		82679051652D18304D43568B7F540DCF /* ImageDownloaderDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageDownloaderDelegate.swift; path = Sources/Networking/ImageDownloaderDelegate.swift; sourceTree = "<group>"; };
+		8450DF9065F8E291BAD9672243CD2A3C /* RedirectHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RedirectHandler.swift; path = Sources/Networking/RedirectHandler.swift; sourceTree = "<group>"; };
+		862356F51E45D76A569B61BD2EE98339 /* MapViewPlus-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MapViewPlus-Info.plist"; sourceTree = "<group>"; };
+		8AD2E919CE6C719E1481761A11D9118C /* AnimatedImageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnimatedImageView.swift; path = Sources/Views/AnimatedImageView.swift; sourceTree = "<group>"; };
+		912CAAA418FD5E726FAB83FE3EACFDAE /* KingfisherManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KingfisherManager.swift; path = Sources/General/KingfisherManager.swift; sourceTree = "<group>"; };
+		96FC926BB4A65CDB2F92F266B4291B79 /* MapViewPlusTemplateHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MapViewPlusTemplateHelper.swift; sourceTree = "<group>"; };
+		978B344A98F1D028D515BA927069B628 /* MapViewPlus.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MapViewPlus.xcconfig; sourceTree = "<group>"; };
+		9A10FC0998CDBCCF0C0382FB6E1C6493 /* DefaultCalloutViewThemeManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DefaultCalloutViewThemeManager.swift; sourceTree = "<group>"; };
+		9A5177C286717DB01CB2D91C052496C9 /* Pods-MapViewPlus_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MapViewPlus_Example.release.xcconfig"; sourceTree = "<group>"; };
+		9B4D0BE17DD50DFD5E3AB459BD13AA7D /* Pods_MapViewPlus_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MapViewPlus_Example.framework; path = "Pods-MapViewPlus_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A21212E2518D55A6E3E99FCB78FFB922 /* MapViewPlus.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = MapViewPlus.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A21AF9E8CC579436ECC311320871EFE1 /* Pods-MapViewPlus_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MapViewPlus_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		A8642118B23E00BF0C1101CD56B68A4C /* Pods-MapViewPlus_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MapViewPlus_Example-frameworks.sh"; sourceTree = "<group>"; };
+		AA86CA8A7EEFF4197395EB1E183D58BD /* Kingfisher.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Kingfisher.modulemap; sourceTree = "<group>"; };
+		AAC0DDD6AB27331D4B13D28B3457209F /* FormatIndicatedCacheSerializer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FormatIndicatedCacheSerializer.swift; path = Sources/Cache/FormatIndicatedCacheSerializer.swift; sourceTree = "<group>"; };
+		AB66A0DCF86D610470074F5F50570A00 /* Kingfisher.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Kingfisher.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABF02D589EC306E61ECECFD7B5D93CA7 /* MapViewPlus-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MapViewPlus-dummy.m"; sourceTree = "<group>"; };
+		B24125FB4B63BECD791B25812F421C53 /* Pods-MapViewPlus_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MapViewPlus_Example-dummy.m"; sourceTree = "<group>"; };
+		B59F60950C2AEE5986844B0CE2AAC565 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		B5C3B6F7D6945FE6DBACAABBD7BC229C /* ImageDataProcessor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageDataProcessor.swift; path = Sources/Networking/ImageDataProcessor.swift; sourceTree = "<group>"; };
+		B7CCFB0A80DE708D1524F8A65B6FB358 /* Resource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Resource.swift; path = Sources/General/ImageSource/Resource.swift; sourceTree = "<group>"; };
+		B91033AEDB0636D959280105930D1AC5 /* SessionDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionDelegate.swift; path = Sources/Networking/SessionDelegate.swift; sourceTree = "<group>"; };
+		C2D9B98E7B22B782CB828C2D1D50064E /* Source.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Source.swift; path = Sources/General/ImageSource/Source.swift; sourceTree = "<group>"; };
+		C3F44C782D64D7EB20B61CE3844EBFAD /* Kingfisher.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Kingfisher.framework; path = Kingfisher.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C44DEA1ECADC54669D6C86D56F6C718A /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/MapKit.framework; sourceTree = DEVELOPER_DIR; };
+		C534DC61FFD8CE7ADE2BBFF22AB9417D /* ImageDownloader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageDownloader.swift; path = Sources/Networking/ImageDownloader.swift; sourceTree = "<group>"; };
+		C66E2A62BB54C85F4D62B7894F4AE4ED /* ImagePrefetcher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImagePrefetcher.swift; path = Sources/Networking/ImagePrefetcher.swift; sourceTree = "<group>"; };
+		C7DA9D5CE7DE397B4725BDCA86F61B01 /* Kingfisher-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Kingfisher-prefix.pch"; sourceTree = "<group>"; };
+		CD857207E49094F7BE8C31D056ED2034 /* GIFAnimatedImage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GIFAnimatedImage.swift; path = Sources/Image/GIFAnimatedImage.swift; sourceTree = "<group>"; };
+		CDF4C79309C97AF5E730C8DC5C51A84D /* ImageCache.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageCache.swift; path = Sources/Cache/ImageCache.swift; sourceTree = "<group>"; };
+		D2EA8AAEAA09BF47C97D5D9034B271B2 /* ResourceBundle-MapViewPlus-MapViewPlus-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-MapViewPlus-MapViewPlus-Info.plist"; sourceTree = "<group>"; };
+		D475C9E3E8965A4385F4A28E11EB5E85 /* ImageProcessor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageProcessor.swift; path = Sources/Image/ImageProcessor.swift; sourceTree = "<group>"; };
+		D691D0703D762C3F711420AC97E76F9C /* MapViewPlus.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MapViewPlus.swift; sourceTree = "<group>"; };
+		DCB4D18562B1F2603109FB29539B952B /* MemoryStorage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MemoryStorage.swift; path = Sources/Cache/MemoryStorage.swift; sourceTree = "<group>"; };
+		E6A4DB1B5EA775EC0309D994148BB332 /* Kingfisher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Kingfisher.swift; path = Sources/General/Kingfisher.swift; sourceTree = "<group>"; };
+		ECB3614D97C86219A710DDEF4BC7FA0E /* RequestModifier.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RequestModifier.swift; path = Sources/Networking/RequestModifier.swift; sourceTree = "<group>"; };
+		EF764A8E4BCD4ED62A5DC53BEEDC9DAF /* DefaultCalloutView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = DefaultCalloutView.xib; sourceTree = "<group>"; };
+		F11E426118BE0111871C701D5A998374 /* Pods-MapViewPlus_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MapViewPlus_Example.modulemap"; sourceTree = "<group>"; };
+		F17B9A7B9BF10F7FF03A96BF7CE1DD73 /* ImagesHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ImagesHelper.swift; sourceTree = "<group>"; };
+		F6BF45C818C627946CA4BA681D76629C /* Runtime.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Runtime.swift; path = Sources/Utility/Runtime.swift; sourceTree = "<group>"; };
+		F790D3DF065503F591E12E5109820505 /* Filter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Filter.swift; path = Sources/Image/Filter.swift; sourceTree = "<group>"; };
+		FA83B7D9210863527B101AFCBF42D06A /* Result.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Result.swift; path = Sources/Utility/Result.swift; sourceTree = "<group>"; };
+		FA995D4CD93A651C8E3B78CE43451098 /* KingfisherError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KingfisherError.swift; path = Sources/General/KingfisherError.swift; sourceTree = "<group>"; };
+		FB1A211BA53EF3CE7B2B016A69F50673 /* MapViewPlusAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MapViewPlusAnimator.swift; sourceTree = "<group>"; };
+		FCF1938C8B1E0898D19CB5935E2C384B /* Kingfisher-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Kingfisher-Info.plist"; sourceTree = "<group>"; };
+		FD9F953EC87A827408298A8B7CC1F7AE /* Image.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Image.swift; path = Sources/Image/Image.swift; sourceTree = "<group>"; };
+		FDE21CEBA5702397A691CDFE7053603F /* AnnotationPlus.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AnnotationPlus.swift; sourceTree = "<group>"; };
+		FE1FA204C5908C3BCE7D1B88EE42A873 /* ImageProgressive.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageProgressive.swift; path = Sources/Image/ImageProgressive.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		3106EDBF417C60032898B4C5D4E07CCF /* Frameworks */ = {
+		B6F7E48E6256777B4D2CEFB4867625E6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				811905896A193EC504089152BACE82DE /* Foundation.framework in Frameworks */,
+				609DF3B14F4CC7EA19C41423341C43D7 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7EF8B49C29093A437552FE1421680B97 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				EC6CC2A25496B74BF5D3A09FEF77660A /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A609338EDF35CCBA06E4B0BD349DCCB7 /* Frameworks */ = {
+		BF5B402C19EE7A928A0E3097F062D7FE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C0B9722E352CF90C920286E6F029D3C0 /* Frameworks */ = {
+		ED12C7EDFEB26D5FAD6C698168F0C3CF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				52416A6AC7387ECACCC45596498D96AD /* CFNetwork.framework in Frameworks */,
-				0CA6357476373C221D44C498AA1D65FE /* Foundation.framework in Frameworks */,
+				E6786B0C96039AB39F4FFA54AE5517F1 /* Foundation.framework in Frameworks */,
+				57373DBECB85E0F33BF755AC1E9B55B6 /* Kingfisher.framework in Frameworks */,
+				F222522EC49C600A5FD1E748B2307F03 /* MapKit.framework in Frameworks */,
+				823ECDAF70D96AD44791756F2B13B7C1 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F353F8F2C7ABA3FAC8BABCEAF6665761 /* Frameworks */ = {
+		F07B3306CA3FE3F776588D27A5FF3D09 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				27633B6CCC26159E0CFBFD25A765D789 /* Foundation.framework in Frameworks */,
-				52D738CE8B52FA26B29F45FA08384831 /* Kingfisher.framework in Frameworks */,
-				A5D6F6019A80BBD9A4CDD875327315C7 /* MapKit.framework in Frameworks */,
-				8EC9D6F20C51EE69AAD3BF735E2085FD /* UIKit.framework in Frameworks */,
+				67776A8ED6E3B931649AD03090E61BBC /* Accelerate.framework in Frameworks */,
+				6B3C32A5B5296C6B58EEADA1330717EB /* CFNetwork.framework in Frameworks */,
+				CE09ED6A621D2A33CD07586E0F999AA1 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		23175A8CA3115B45ABA1ADDBF2BAD0B1 /* Kingfisher */ = {
+		0F3A45A37530E75C4FD31703C2430578 /* Assets */ = {
 			isa = PBXGroup;
 			children = (
-				97744218645011AC4C4695B08E6D8D4D /* AnimatedImageView.swift */,
-				34CAEDC5E957FD53E3255996E4D648A1 /* CacheSerializer.swift */,
-				12733C8F027243FC699CA3E637A0BAD1 /* Filter.swift */,
-				87B722E17BD44A7A3D280614621756A4 /* FormatIndicatedCacheSerializer.swift */,
-				0EFCFC3E4E36D653AC8DF93A857CDDB7 /* Image.swift */,
-				2907BE3D9DF83E76DA0A5B9936A365B3 /* ImageCache.swift */,
-				DC5ABE250BD6B17025B610EF749F06C2 /* ImageDownloader.swift */,
-				2D41286A01926344794331A1FDC052A5 /* ImageModifier.swift */,
-				392B0DA599E47D642B492C3E3A4BA847 /* ImagePrefetcher.swift */,
-				27BBEE5BBF6DF591DC71B58E93FBEDD1 /* ImageProcessor.swift */,
-				C0E0207FBB4241709BED7EFAE9581FC0 /* ImageTransition.swift */,
-				4E189DD4CE0194905DE786776099880A /* ImageView+Kingfisher.swift */,
-				06308BD0CBAAB2A903D1577578547BE0 /* Indicator.swift */,
-				B67A632D1920A9DC3D4CF24DEC85836F /* Kingfisher.h */,
-				DF9237157A14F8E879C804482234E36D /* Kingfisher.swift */,
-				427979D336F04ABE8BC79A205766A3AB /* KingfisherManager.swift */,
-				CBD292E0746B2C957ED9E46AC434086D /* KingfisherOptionsInfo.swift */,
-				307F48AED29EBA0E9B86FB31F6B7191E /* Placeholder.swift */,
-				560B2502E44ABBB72BEFF20095281CF0 /* RequestModifier.swift */,
-				1B04434DAE7DCF464680895EF71F99E8 /* Resource.swift */,
-				0FA1BEFBB065DED07B52F926E26385C3 /* String+MD5.swift */,
-				06368974BE4F06FF19F556D68EDD2146 /* ThreadHelper.swift */,
-				7F4B8D9762C2732EA00A4E9BCE0BB730 /* UIButton+Kingfisher.swift */,
-				3E335D03DD293D703E247D4A4006F6B9 /* Support Files */,
-			);
-			path = Kingfisher;
-			sourceTree = "<group>";
-		};
-		2CF876AC709036DB9EEC74C15CB0DDA6 /* Pods-MapViewPlus_Example */ = {
-			isa = PBXGroup;
-			children = (
-				A630F91536DA456C481B1AD217F5DBC2 /* Info.plist */,
-				FE94018118AFF9C2FAD9478B1660EAD3 /* Pods-MapViewPlus_Example.modulemap */,
-				7C3D8F5A43A82914AE00333E86A66533 /* Pods-MapViewPlus_Example-acknowledgements.markdown */,
-				A2BD2955CB27113A79524F9DB2631A45 /* Pods-MapViewPlus_Example-acknowledgements.plist */,
-				76A58ACB5A065AB17E29ED1D3DDB1152 /* Pods-MapViewPlus_Example-dummy.m */,
-				CF64EA4AD07058A03CA7C60114FF950B /* Pods-MapViewPlus_Example-frameworks.sh */,
-				1C58A7617D1E479D66C4CD80C2948A01 /* Pods-MapViewPlus_Example-resources.sh */,
-				6505C50BE9144E4A69554EC1E1F50810 /* Pods-MapViewPlus_Example-umbrella.h */,
-				108930A23F8A32B5E0C1B23B77B126CD /* Pods-MapViewPlus_Example.debug.xcconfig */,
-				8DD4107177B09913A3CAFD0351D200A2 /* Pods-MapViewPlus_Example.release.xcconfig */,
-			);
-			name = "Pods-MapViewPlus_Example";
-			path = "Target Support Files/Pods-MapViewPlus_Example";
-			sourceTree = "<group>";
-		};
-		2CFA8F9E0323A318468CEB4D49F945DC /* MapViewPlus */ = {
-			isa = PBXGroup;
-			children = (
-				83F2825F20539F7600AB538F /* Classes */,
-				83F2825C20539F6C00AB538F /* Assets */,
-				DDC894D289A5D6197C9397774B7DDDB9 /* Pod */,
-				C018EA9946578023D89EBDB1B206CB5D /* Support Files */,
-			);
-			name = MapViewPlus;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		384B9549F3F3E3418AA339058327FC37 /* Pods-MapViewPlus_Tests */ = {
-			isa = PBXGroup;
-			children = (
-				9F6FBA07116768624D1D4FC6A7001DAF /* Info.plist */,
-				AABB549B6CA25B21CF7A3D2F4353039C /* Pods-MapViewPlus_Tests.modulemap */,
-				751E41747ABC6967A243EE9CC6EA73ED /* Pods-MapViewPlus_Tests-acknowledgements.markdown */,
-				EF052DB78F4DDAE18EF9725C52F1ED4A /* Pods-MapViewPlus_Tests-acknowledgements.plist */,
-				E93AAEC30D3ECAFCBDBB43A45AE9D743 /* Pods-MapViewPlus_Tests-dummy.m */,
-				A0E8C538237FEF0552836C78F05857B2 /* Pods-MapViewPlus_Tests-frameworks.sh */,
-				375705A8FEA1AE1B3F2D34370C18332C /* Pods-MapViewPlus_Tests-resources.sh */,
-				30A474B5C732B85F211A9D68F3F8D755 /* Pods-MapViewPlus_Tests-umbrella.h */,
-				653F645AF3DBBBC66B4C6C08863B0C56 /* Pods-MapViewPlus_Tests.debug.xcconfig */,
-				3A12B7E996B1DD76443BBF1F0F097369 /* Pods-MapViewPlus_Tests.release.xcconfig */,
-			);
-			name = "Pods-MapViewPlus_Tests";
-			path = "Target Support Files/Pods-MapViewPlus_Tests";
-			sourceTree = "<group>";
-		};
-		3D6095F459DCD177527C9FA81EE6B8B4 /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				2CF876AC709036DB9EEC74C15CB0DDA6 /* Pods-MapViewPlus_Example */,
-				384B9549F3F3E3418AA339058327FC37 /* Pods-MapViewPlus_Tests */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		3E335D03DD293D703E247D4A4006F6B9 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				3005008205E23DD8EA62C35AB658C2E1 /* Info.plist */,
-				69E1E7F5F1A10424F6C3A91A338E6136 /* Kingfisher.modulemap */,
-				681FBBDA5A6332CADC8624F5E288E24A /* Kingfisher.xcconfig */,
-				46BE5F2876E725A0356E6B93EBA44559 /* Kingfisher-dummy.m */,
-				9C6624165D2320306DC68B880BF1EE02 /* Kingfisher-prefix.pch */,
-				D92F7C835E81572106B3A5121EDA420D /* Kingfisher-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/Kingfisher";
-			sourceTree = "<group>";
-		};
-		46A02465F25B0FC39FF02C0F18599D73 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				231B8AB5B6F0228F4A9B86CCFA0DD997 /* Kingfisher.framework */,
-				AF57E7CCB92DBBCFB8EE452EF2D20662 /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		7DB346D0F39D3F0E887471402A8071AB = {
-			isa = PBXGroup;
-			children = (
-				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				977EE30EA29FCA6FE8712919ADAD57A0 /* Development Pods */,
-				46A02465F25B0FC39FF02C0F18599D73 /* Frameworks */,
-				9469D748404B6E4D4F3E90E0B84F53A3 /* Pods */,
-				A2B32B795321BD6A71094AB25059E32D /* Products */,
-				3D6095F459DCD177527C9FA81EE6B8B4 /* Targets Support Files */,
-			);
-			sourceTree = "<group>";
-		};
-		83F2825C20539F6C00AB538F /* Assets */ = {
-			isa = PBXGroup;
-			children = (
-				83F2827F20539F9800AB538F /* Assets.xcassets */,
+				6920298DEF7B8AC86D164EE72E98B489 /* Assets.xcassets */,
 			);
 			name = Assets;
 			path = MapViewPlus/Assets;
 			sourceTree = "<group>";
 		};
-		83F2825F20539F7600AB538F /* Classes */ = {
+		12B9F228F24C52051B0D27A8B5EAFC4F /* Animator */ = {
 			isa = PBXGroup;
 			children = (
-				83F282812053A50500AB538F /* Helper */,
-				83F2826120539F7600AB538F /* Abstract */,
-				83F2826520539F7600AB538F /* Animator */,
-				83F2826720539F7600AB538F /* DefaultCalloutView */,
-				83F2826C20539F7600AB538F /* Source */,
-				83F2826F20539F7600AB538F /* Views */,
+				FB1A211BA53EF3CE7B2B016A69F50673 /* MapViewPlusAnimator.swift */,
 			);
-			name = Classes;
-			path = MapViewPlus/Classes;
+			name = Animator;
+			path = MapViewPlus/Classes/Animator;
 			sourceTree = "<group>";
 		};
-		83F2826120539F7600AB538F /* Abstract */ = {
+		1BDDB1743E8021FA91EE437963722C6B /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				83F2826220539F7600AB538F /* AnnotationPlus.swift */,
-				83F2826320539F7600AB538F /* CalloutViewPlus.swift */,
-				83F2826420539F7600AB538F /* MapViewPlusDelegates.swift */,
+				1B1FCCA6DC18CADAB55CD7B379636BF6 /* LICENSE */,
+				A21212E2518D55A6E3E99FCB78FFB922 /* MapViewPlus.podspec */,
+				2069B53FD0E908944D756408810C88CE /* README.md */,
 			);
-			path = Abstract;
+			name = Pod;
 			sourceTree = "<group>";
 		};
-		83F2826520539F7600AB538F /* Animator */ = {
+		1DD159FAD22D1D58507F22A92B9C211D /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				83F2826620539F7600AB538F /* MapViewPlusAnimator.swift */,
+				0F3A45A37530E75C4FD31703C2430578 /* Assets */,
 			);
-			path = Animator;
+			name = Resources;
 			sourceTree = "<group>";
 		};
-		83F2826720539F7600AB538F /* DefaultCalloutView */ = {
+		24CE8E1C961B7C26C67056A8ADBD7E31 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				83F2826820539F7600AB538F /* DefaultCalloutView.swift */,
-				83F2826920539F7600AB538F /* DefaultCalloutView.xib */,
-				83F2826A20539F7600AB538F /* DefaultCalloutViewModel.swift */,
-				83F2826B20539F7600AB538F /* DefaultCalloutViewThemeManager.swift */,
+				49FC020A3525DDF68A1A6AAFFF3E7A7B /* AnchorView.swift */,
+				2FF4576533474F8A3614B7DCADFB181E /* CalloutAndAnchorView.swift */,
 			);
-			path = DefaultCalloutView;
+			name = Views;
+			path = MapViewPlus/Classes/Views;
 			sourceTree = "<group>";
 		};
-		83F2826C20539F7600AB538F /* Source */ = {
+		2598308C9F3B1AE305C4693CE92A5B8F /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				83F2826D20539F7600AB538F /* MapViewPlus.swift */,
-			);
-			path = Source;
-			sourceTree = "<group>";
-		};
-		83F2826F20539F7600AB538F /* Views */ = {
-			isa = PBXGroup;
-			children = (
-				83F2827020539F7600AB538F /* AnchorView.swift */,
-				83F2827120539F7600AB538F /* CalloutAndAnchorView.swift */,
-			);
-			path = Views;
-			sourceTree = "<group>";
-		};
-		83F282812053A50500AB538F /* Helper */ = {
-			isa = PBXGroup;
-			children = (
-				83F2826E20539F7600AB538F /* MapViewPlusTemplateHelper.swift */,
-				83F282822053A51800AB538F /* ImagesHelper.swift */,
-			);
-			path = Helper;
-			sourceTree = "<group>";
-		};
-		9469D748404B6E4D4F3E90E0B84F53A3 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				23175A8CA3115B45ABA1ADDBF2BAD0B1 /* Kingfisher */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		977EE30EA29FCA6FE8712919ADAD57A0 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				2CFA8F9E0323A318468CEB4D49F945DC /* MapViewPlus */,
+				FED1B8AF42DD5D7CAA7B5E14B0FBBAB7 /* MapViewPlus */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		A2B32B795321BD6A71094AB25059E32D /* Products */ = {
+		28A6941FDF77EF1D116C11CECA985186 /* Abstract */ = {
 			isa = PBXGroup;
 			children = (
-				114E1261C72FBBD964322D4CB8557775 /* Kingfisher.framework */,
-				47A92100E90C719BA2D2F11E08FE618C /* MapViewPlus.bundle */,
-				E42788E2E71602234F69912D2A3C6942 /* MapViewPlus.framework */,
-				6FD1F8A60679B54627B54534CA743A79 /* Pods_MapViewPlus_Example.framework */,
-				13168B311BFC8A660879E1E810961F3F /* Pods_MapViewPlus_Tests.framework */,
+				FDE21CEBA5702397A691CDFE7053603F /* AnnotationPlus.swift */,
+				40E27008FB8E6EED76D153B968178686 /* CalloutViewPlus.swift */,
+				434F5A95779EF087AF8D98BF7EA1A516 /* MapViewPlusDelegates.swift */,
 			);
-			name = Products;
+			name = Abstract;
+			path = MapViewPlus/Classes/Abstract;
 			sourceTree = "<group>";
 		};
-		AF57E7CCB92DBBCFB8EE452EF2D20662 /* iOS */ = {
+		295C6370416F2A7740FA4AB51B899CFD /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				D42D148ADFF17DF1CE574ECB7AB6D9FB /* CFNetwork.framework */,
-				6E3AE42F9EED9AE22447BADCB81E0067 /* Foundation.framework */,
-				7566452D0F616FE266556DE69759537A /* MapKit.framework */,
-				97B126E0B3E4A1D705BB143D77F46D3B /* UIKit.framework */,
+				26EADA6310C7C5DAF689C43003CB3C1A /* Accelerate.framework */,
+				51D1E492782C3FECBD4A66BD8FEEBFA6 /* CFNetwork.framework */,
+				B59F60950C2AEE5986844B0CE2AAC565 /* Foundation.framework */,
+				C44DEA1ECADC54669D6C86D56F6C718A /* MapKit.framework */,
+				3543AB01CAA0D8EED5227ABEEE28A05A /* UIKit.framework */,
 			);
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		C018EA9946578023D89EBDB1B206CB5D /* Support Files */ = {
+		2C47F876B83B344DAC661897A84F3424 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				39C2434217FFA1BABF387118E7B8FD55 /* Info.plist */,
-				9B52524D4874E8524B7BFA8B7A8EA826 /* MapViewPlus.modulemap */,
-				5CC80DFFF51C1083EE4758D4F3614426 /* MapViewPlus.xcconfig */,
-				D7FC496DDF89E3549DEA8D31A31EC574 /* MapViewPlus-dummy.m */,
-				FADBE8918EDB8633F61742CC7A4D45FC /* MapViewPlus-prefix.pch */,
-				07E2A8B1379C87E0252047F7EFCB3A06 /* MapViewPlus-umbrella.h */,
-				9E80A0D4F0FEC4E2D1B3369C5F2AE03C /* ResourceBundle-MapViewPlus-Info.plist */,
+				AB66A0DCF86D610470074F5F50570A00 /* Kingfisher.framework */,
+				295C6370416F2A7740FA4AB51B899CFD /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		31520206292519B9FEB7ADA9351EF01B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0FBB843F5B5540B39350C7C741B2B2D2 /* MapViewPlus.modulemap */,
+				978B344A98F1D028D515BA927069B628 /* MapViewPlus.xcconfig */,
+				ABF02D589EC306E61ECECFD7B5D93CA7 /* MapViewPlus-dummy.m */,
+				862356F51E45D76A569B61BD2EE98339 /* MapViewPlus-Info.plist */,
+				19C7FE5DD11E544916A20ABD948FCEB7 /* MapViewPlus-prefix.pch */,
+				6AF179D68255F2FED3EDCD6416288C02 /* MapViewPlus-umbrella.h */,
+				D2EA8AAEAA09BF47C97D5D9034B271B2 /* ResourceBundle-MapViewPlus-MapViewPlus-Info.plist */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/MapViewPlus";
 			sourceTree = "<group>";
 		};
-		DDC894D289A5D6197C9397774B7DDDB9 /* Pod */ = {
+		65B2F8EFEC0F61E6EBDD9A98C2763999 /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				373577B153D5F93727D158AF5D1DC538 /* LICENSE */,
-				70D1A7B896AB04A0CCA65164D7EAC9C9 /* MapViewPlus.podspec */,
-				3A1C0BA43C2C5FF1F14351AD78F262FC /* README.md */,
+				D691D0703D762C3F711420AC97E76F9C /* MapViewPlus.swift */,
 			);
-			name = Pod;
+			name = Source;
+			path = MapViewPlus/Classes/Source;
+			sourceTree = "<group>";
+		};
+		8A33C845DB4805C18D71A0F8461F209A /* Pods-MapViewPlus_Example */ = {
+			isa = PBXGroup;
+			children = (
+				F11E426118BE0111871C701D5A998374 /* Pods-MapViewPlus_Example.modulemap */,
+				37C998021DF1C7299AB59B0DDD79BF29 /* Pods-MapViewPlus_Example-acknowledgements.markdown */,
+				A21AF9E8CC579436ECC311320871EFE1 /* Pods-MapViewPlus_Example-acknowledgements.plist */,
+				B24125FB4B63BECD791B25812F421C53 /* Pods-MapViewPlus_Example-dummy.m */,
+				A8642118B23E00BF0C1101CD56B68A4C /* Pods-MapViewPlus_Example-frameworks.sh */,
+				35F07E21322473E2DC58D154AB534DC9 /* Pods-MapViewPlus_Example-Info.plist */,
+				45E87BA031C1BEE171134617F2046C6E /* Pods-MapViewPlus_Example-umbrella.h */,
+				3203FF12F06BCD529B379CF529955151 /* Pods-MapViewPlus_Example.debug.xcconfig */,
+				9A5177C286717DB01CB2D91C052496C9 /* Pods-MapViewPlus_Example.release.xcconfig */,
+			);
+			name = "Pods-MapViewPlus_Example";
+			path = "Target Support Files/Pods-MapViewPlus_Example";
+			sourceTree = "<group>";
+		};
+		9A2B63DB998DBA33AFEEA30072D8FA90 /* Kingfisher */ = {
+			isa = PBXGroup;
+			children = (
+				8AD2E919CE6C719E1481761A11D9118C /* AnimatedImageView.swift */,
+				7F59ADADC19FB1135F4824C7D1EB016A /* AuthenticationChallengeResponsable.swift */,
+				7031C40A6606617901E2C032EE5CA68F /* Box.swift */,
+				0BFD637F6054C8E0BD29EC29CD98C2DD /* CacheSerializer.swift */,
+				668509C5412AFE3A3E4FB11ABE74306E /* CallbackQueue.swift */,
+				18C7DCDB60E3CD84A1404A2E0B0A18C7 /* Delegate.swift */,
+				49D8B357489EFD798A80CB1C0056A4FA /* Deprecated.swift */,
+				2B57C775790ABD0DCAC7971792DB5FA1 /* DiskStorage.swift */,
+				7E79E315E13EB0D6CF6C557A7F0D899A /* ExtensionHelpers.swift */,
+				F790D3DF065503F591E12E5109820505 /* Filter.swift */,
+				AAC0DDD6AB27331D4B13D28B3457209F /* FormatIndicatedCacheSerializer.swift */,
+				CD857207E49094F7BE8C31D056ED2034 /* GIFAnimatedImage.swift */,
+				FD9F953EC87A827408298A8B7CC1F7AE /* Image.swift */,
+				CDF4C79309C97AF5E730C8DC5C51A84D /* ImageCache.swift */,
+				B5C3B6F7D6945FE6DBACAABBD7BC229C /* ImageDataProcessor.swift */,
+				73F7044A09AA8A2EBD61F34243A9BBC9 /* ImageDataProvider.swift */,
+				C534DC61FFD8CE7ADE2BBFF22AB9417D /* ImageDownloader.swift */,
+				82679051652D18304D43568B7F540DCF /* ImageDownloaderDelegate.swift */,
+				729DDC4F78A85727CABCDDA697E9FDCF /* ImageDrawing.swift */,
+				57B88C3D60C34686BFE89B30F1875BCE /* ImageFormat.swift */,
+				494C5DC712140549510B6F8BD785911D /* ImageModifier.swift */,
+				C66E2A62BB54C85F4D62B7894F4AE4ED /* ImagePrefetcher.swift */,
+				D475C9E3E8965A4385F4A28E11EB5E85 /* ImageProcessor.swift */,
+				FE1FA204C5908C3BCE7D1B88EE42A873 /* ImageProgressive.swift */,
+				4BB6D3DCAFE0A615F54A20C8D0C294AF /* ImageTransition.swift */,
+				4B2B2D4475075536A24EA894B13642B7 /* ImageView+Kingfisher.swift */,
+				1CFF5057078BFA55BAAECDD1AB6ED74B /* Indicator.swift */,
+				06925D1BB858852D36CBC110DE6A2277 /* Kingfisher.h */,
+				E6A4DB1B5EA775EC0309D994148BB332 /* Kingfisher.swift */,
+				FA995D4CD93A651C8E3B78CE43451098 /* KingfisherError.swift */,
+				912CAAA418FD5E726FAB83FE3EACFDAE /* KingfisherManager.swift */,
+				26F43A66582A19A12D32A635A0FE3646 /* KingfisherOptionsInfo.swift */,
+				DCB4D18562B1F2603109FB29539B952B /* MemoryStorage.swift */,
+				564277698B131DA03409CC523426422D /* Placeholder.swift */,
+				8450DF9065F8E291BAD9672243CD2A3C /* RedirectHandler.swift */,
+				ECB3614D97C86219A710DDEF4BC7FA0E /* RequestModifier.swift */,
+				B7CCFB0A80DE708D1524F8A65B6FB358 /* Resource.swift */,
+				FA83B7D9210863527B101AFCBF42D06A /* Result.swift */,
+				F6BF45C818C627946CA4BA681D76629C /* Runtime.swift */,
+				0ED293611EEF7E3EA5FC6D87487C4CDE /* SessionDataTask.swift */,
+				B91033AEDB0636D959280105930D1AC5 /* SessionDelegate.swift */,
+				603175EBD594C09D59D80D45F304E2C9 /* SizeExtensions.swift */,
+				C2D9B98E7B22B782CB828C2D1D50064E /* Source.swift */,
+				1BA433D81757F54CAE2211E6D3B4FAB5 /* Storage.swift */,
+				5BECA832319A1E6F1552796A929E34F1 /* String+MD5.swift */,
+				530486E5B2E1A576BB688EE7E66B9B12 /* UIButton+Kingfisher.swift */,
+				BFF0DE6DDE2547914C19223817497260 /* Support Files */,
+			);
+			name = Kingfisher;
+			path = Kingfisher;
+			sourceTree = "<group>";
+		};
+		9DDFCB400CA45F760D9C8A0582ECDE05 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				F17B9A7B9BF10F7FF03A96BF7CE1DD73 /* ImagesHelper.swift */,
+				96FC926BB4A65CDB2F92F266B4291B79 /* MapViewPlusTemplateHelper.swift */,
+			);
+			name = Helper;
+			path = MapViewPlus/Classes/Helper;
+			sourceTree = "<group>";
+		};
+		BFF0DE6DDE2547914C19223817497260 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AA86CA8A7EEFF4197395EB1E183D58BD /* Kingfisher.modulemap */,
+				5084878DC7658D1C8F0D24F9DF110E07 /* Kingfisher.xcconfig */,
+				5E1E979F51BCDA58CC84984EE77237AC /* Kingfisher-dummy.m */,
+				FCF1938C8B1E0898D19CB5935E2C384B /* Kingfisher-Info.plist */,
+				C7DA9D5CE7DE397B4725BDCA86F61B01 /* Kingfisher-prefix.pch */,
+				16C568EB5D7B306D583DE0E00990D0D8 /* Kingfisher-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Kingfisher";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				2598308C9F3B1AE305C4693CE92A5B8F /* Development Pods */,
+				2C47F876B83B344DAC661897A84F3424 /* Frameworks */,
+				D92A1AC6AB2D7B5E9CFAF4BAE5B71804 /* Pods */,
+				FBAE83671E8133F20401F37B65FF50CB /* Products */,
+				D21FED34140E80D7B6F7040372F91A92 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D21FED34140E80D7B6F7040372F91A92 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8A33C845DB4805C18D71A0F8461F209A /* Pods-MapViewPlus_Example */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		D92A1AC6AB2D7B5E9CFAF4BAE5B71804 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9A2B63DB998DBA33AFEEA30072D8FA90 /* Kingfisher */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EDC362194A9B6869DD988BE85C6E666B /* DefaultCalloutView */ = {
+			isa = PBXGroup;
+			children = (
+				031A74A9DDDE85859117B859F6CFE76B /* DefaultCalloutView.swift */,
+				EF764A8E4BCD4ED62A5DC53BEEDC9DAF /* DefaultCalloutView.xib */,
+				67218DC3B60007BCC87FFEB70FF56CEA /* DefaultCalloutViewModel.swift */,
+				9A10FC0998CDBCCF0C0382FB6E1C6493 /* DefaultCalloutViewThemeManager.swift */,
+			);
+			name = DefaultCalloutView;
+			path = MapViewPlus/Classes/DefaultCalloutView;
+			sourceTree = "<group>";
+		};
+		FBAE83671E8133F20401F37B65FF50CB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C3F44C782D64D7EB20B61CE3844EBFAD /* Kingfisher.framework */,
+				613DDC9439CF871C4C3967D569CB583A /* MapViewPlus.bundle */,
+				3FB8A498C655110BA5A039DA3D3C329D /* MapViewPlus.framework */,
+				9B4D0BE17DD50DFD5E3AB459BD13AA7D /* Pods_MapViewPlus_Example.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FED1B8AF42DD5D7CAA7B5E14B0FBBAB7 /* MapViewPlus */ = {
+			isa = PBXGroup;
+			children = (
+				28A6941FDF77EF1D116C11CECA985186 /* Abstract */,
+				12B9F228F24C52051B0D27A8B5EAFC4F /* Animator */,
+				EDC362194A9B6869DD988BE85C6E666B /* DefaultCalloutView */,
+				9DDFCB400CA45F760D9C8A0582ECDE05 /* Helper */,
+				1BDDB1743E8021FA91EE437963722C6B /* Pod */,
+				1DD159FAD22D1D58507F22A92B9C211D /* Resources */,
+				65B2F8EFEC0F61E6EBDD9A98C2763999 /* Source */,
+				31520206292519B9FEB7ADA9351EF01B /* Support Files */,
+				24CE8E1C961B7C26C67056A8ADBD7E31 /* Views */,
+			);
+			name = MapViewPlus;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		759F819BE87DE9F708F29B16071A36C2 /* Headers */ = {
+		5E6DF4B77538F64A4F24BD44BE8C8CE8 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B6AEA327B99A61987C48BE9F4EFC7DF3 /* MapViewPlus-umbrella.h in Headers */,
+				AEF4683E4D85E622C6B36EA2A5508D44 /* Pods-MapViewPlus_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		84676F7D46FF521291CDEB2AB04A454C /* Headers */ = {
+		80389C13C777AB62A8A653FD28602B42 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2F288ED3641B2B4775884C462AE377E6 /* Kingfisher-umbrella.h in Headers */,
-				5B5D8AE167BD8E304CE474A9B8DBA2B4 /* Kingfisher.h in Headers */,
+				755E6E11284F28E57A17A1BC9B3FCC35 /* MapViewPlus-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B25FB8F36F9118C664DA6548B79935CE /* Headers */ = {
+		AE1843D8294075737CB8B327FC154AEE /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D6151C244612A79238EAD22287F41E70 /* Pods-MapViewPlus_Tests-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E619968317EE5E81D22FFE7317171E35 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F377FABD1063C4837528EEEEA7CFA133 /* Pods-MapViewPlus_Example-umbrella.h in Headers */,
+				203F98456AEFAAA6B288FADB0975CFCE /* Kingfisher-umbrella.h in Headers */,
+				5D4759FF7D34320BC1BFE3171BD83250 /* Kingfisher.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		604127B94882DD40B315E3ECC113FD36 /* MapViewPlus */ = {
+		104F1045445BF4FD4CDBD09DBF9281B5 /* MapViewPlus */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 53C9CC3F28CE180CBD7B035855337B11 /* Build configuration list for PBXNativeTarget "MapViewPlus" */;
+			buildConfigurationList = 18A3EB3BD961E512C746D60678064D38 /* Build configuration list for PBXNativeTarget "MapViewPlus" */;
 			buildPhases = (
-				4AC5090FBCE99ADFE942E1C0B78A7C49 /* Sources */,
-				F353F8F2C7ABA3FAC8BABCEAF6665761 /* Frameworks */,
-				2DD442DE503A60C7480C1041B517B4B8 /* Resources */,
-				759F819BE87DE9F708F29B16071A36C2 /* Headers */,
+				80389C13C777AB62A8A653FD28602B42 /* Headers */,
+				93BE1B4F05ECFB9A103D34B7534E3871 /* Sources */,
+				ED12C7EDFEB26D5FAD6C698168F0C3CF /* Frameworks */,
+				4872F2F1E683B4D87605493C5A366847 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				509C3AFE990F654A981642B60C0558DB /* PBXTargetDependency */,
-				7334230CB70DD94C2AAEE6CD0594FDB1 /* PBXTargetDependency */,
+				1E735F09A187A2B08E5010146DFB2EF8 /* PBXTargetDependency */,
+				81BB12A8CD9C9F5FCC9944641CD4AEC4 /* PBXTargetDependency */,
 			);
 			name = MapViewPlus;
 			productName = MapViewPlus;
-			productReference = E42788E2E71602234F69912D2A3C6942 /* MapViewPlus.framework */;
+			productReference = 3FB8A498C655110BA5A039DA3D3C329D /* MapViewPlus.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		6F712943B3C5592E82604940D11CE08A /* Kingfisher */ = {
+		AB3F557308DD735B3427E587B18B8A80 /* MapViewPlus-MapViewPlus */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8C1E4CEFB2390CBE75E70BAC20F44BBF /* Build configuration list for PBXNativeTarget "Kingfisher" */;
+			buildConfigurationList = 54150FC7B504C75A3E5007530EE7B19D /* Build configuration list for PBXNativeTarget "MapViewPlus-MapViewPlus" */;
 			buildPhases = (
-				028CF0EB906C10D636EC909AF25FA2CF /* Sources */,
-				C0B9722E352CF90C920286E6F029D3C0 /* Frameworks */,
-				84676F7D46FF521291CDEB2AB04A454C /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = Kingfisher;
-			productName = Kingfisher;
-			productReference = 114E1261C72FBBD964322D4CB8557775 /* Kingfisher.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		D6D526AB9F54AB9332D0179259877A19 /* Pods-MapViewPlus_Tests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 141DE837D18875B1C73BACE1BB922C3C /* Build configuration list for PBXNativeTarget "Pods-MapViewPlus_Tests" */;
-			buildPhases = (
-				AAF736FB4E31B9F8669822A4C6654D3B /* Sources */,
-				3106EDBF417C60032898B4C5D4E07CCF /* Frameworks */,
-				B25FB8F36F9118C664DA6548B79935CE /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "Pods-MapViewPlus_Tests";
-			productName = "Pods-MapViewPlus_Tests";
-			productReference = 13168B311BFC8A660879E1E810961F3F /* Pods_MapViewPlus_Tests.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		E30D2898083AE8235227211E362B6AB1 /* Pods-MapViewPlus_Example */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 1A35B191D970CA5AE9B78FCCEEA67A43 /* Build configuration list for PBXNativeTarget "Pods-MapViewPlus_Example" */;
-			buildPhases = (
-				9F2EE39E20F7F12954B7CB2A9BFD9AD7 /* Sources */,
-				7EF8B49C29093A437552FE1421680B97 /* Frameworks */,
-				E619968317EE5E81D22FFE7317171E35 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				5E01DC6375E8735FEE687850CB5F1B81 /* PBXTargetDependency */,
-				D34BB562A21374259C32E48F22104542 /* PBXTargetDependency */,
-			);
-			name = "Pods-MapViewPlus_Example";
-			productName = "Pods-MapViewPlus_Example";
-			productReference = 6FD1F8A60679B54627B54534CA743A79 /* Pods_MapViewPlus_Example.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		F3755D0C546E1F77E1F91AF972F495F5 /* MapViewPlus-MapViewPlus */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = F0EEE6ECADD8E7984EB0DBBC4D73F9F8 /* Build configuration list for PBXNativeTarget "MapViewPlus-MapViewPlus" */;
-			buildPhases = (
-				8207250B02B27CA097C81D30CC36A978 /* Sources */,
-				A609338EDF35CCBA06E4B0BD349DCCB7 /* Frameworks */,
-				D54B797DF326C35361E28892069883BE /* Resources */,
+				8D0A6F1DF5EB7668BF9BC431A8D3209F /* Sources */,
+				BF5B402C19EE7A928A0E3097F062D7FE /* Frameworks */,
+				DBA382B6E3E4DACD43CD0BAE35268556 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -619,172 +594,238 @@
 			);
 			name = "MapViewPlus-MapViewPlus";
 			productName = "MapViewPlus-MapViewPlus";
-			productReference = 47A92100E90C719BA2D2F11E08FE618C /* MapViewPlus.bundle */;
+			productReference = 613DDC9439CF871C4C3967D569CB583A /* MapViewPlus.bundle */;
 			productType = "com.apple.product-type.bundle";
+		};
+		E8022D22FAA6690B5E1C379C1BCE1491 /* Kingfisher */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0848743DBC84525A838C80EB5BF2A20 /* Build configuration list for PBXNativeTarget "Kingfisher" */;
+			buildPhases = (
+				AE1843D8294075737CB8B327FC154AEE /* Headers */,
+				00471725295025C4A31595E9E3BCCD6F /* Sources */,
+				F07B3306CA3FE3F776588D27A5FF3D09 /* Frameworks */,
+				7ADA03050A53BAC090314ACDC30F2BAA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Kingfisher;
+			productName = Kingfisher;
+			productReference = C3F44C782D64D7EB20B61CE3844EBFAD /* Kingfisher.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FB828011519EA24EEA6C293D6E3ECE28 /* Pods-MapViewPlus_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38391820072E722DAA8CDE03578AB13E /* Build configuration list for PBXNativeTarget "Pods-MapViewPlus_Example" */;
+			buildPhases = (
+				5E6DF4B77538F64A4F24BD44BE8C8CE8 /* Headers */,
+				62DEC362FCFCD38B1A5D1009709A702B /* Sources */,
+				B6F7E48E6256777B4D2CEFB4867625E6 /* Frameworks */,
+				1E80380BD3F1D8A0539DDCE1F5C173C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A4DB41DB4024A753BAC45E9E4A32211A /* PBXTargetDependency */,
+				88C1332B5E51D72F1EB3F52C43384D04 /* PBXTargetDependency */,
+			);
+			name = "Pods-MapViewPlus_Example";
+			productName = "Pods-MapViewPlus_Example";
+			productReference = 9B4D0BE17DD50DFD5E3AB459BD13AA7D /* Pods_MapViewPlus_Example.framework */;
+			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0930;
-				LastUpgradeCheck = 0930;
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
 			};
-			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				English,
 				en,
 			);
-			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = A2B32B795321BD6A71094AB25059E32D /* Products */;
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = FBAE83671E8133F20401F37B65FF50CB /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6F712943B3C5592E82604940D11CE08A /* Kingfisher */,
-				604127B94882DD40B315E3ECC113FD36 /* MapViewPlus */,
-				F3755D0C546E1F77E1F91AF972F495F5 /* MapViewPlus-MapViewPlus */,
-				E30D2898083AE8235227211E362B6AB1 /* Pods-MapViewPlus_Example */,
-				D6D526AB9F54AB9332D0179259877A19 /* Pods-MapViewPlus_Tests */,
+				E8022D22FAA6690B5E1C379C1BCE1491 /* Kingfisher */,
+				104F1045445BF4FD4CDBD09DBF9281B5 /* MapViewPlus */,
+				AB3F557308DD735B3427E587B18B8A80 /* MapViewPlus-MapViewPlus */,
+				FB828011519EA24EEA6C293D6E3ECE28 /* Pods-MapViewPlus_Example */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		2DD442DE503A60C7480C1041B517B4B8 /* Resources */ = {
+		1E80380BD3F1D8A0539DDCE1F5C173C6 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EC8FEE8D3905F0BB594D93178BD8DE4E /* MapViewPlus.bundle in Resources */,
-				83F2827820539F7600AB538F /* DefaultCalloutView.xib in Resources */,
-				83F2828020539F9800AB538F /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D54B797DF326C35361E28892069883BE /* Resources */ = {
+		4872F2F1E683B4D87605493C5A366847 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6729B1041A4D0849DFF33A6C81FD9310 /* MapViewPlus.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7ADA03050A53BAC090314ACDC30F2BAA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBA382B6E3E4DACD43CD0BAE35268556 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06964A0F0E04244079840833C3ED7178 /* Assets.xcassets in Resources */,
+				297435460DA621FBE619180F44720126 /* DefaultCalloutView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		028CF0EB906C10D636EC909AF25FA2CF /* Sources */ = {
+		00471725295025C4A31595E9E3BCCD6F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				09A0DDE1726C527699A0C0F53482505B /* AnimatedImageView.swift in Sources */,
-				AA276321E3A96169B102E2B4EFF4F02D /* CacheSerializer.swift in Sources */,
-				5AC063843F5C822D8E0DAD049DB2172C /* Filter.swift in Sources */,
-				171D92BAB767E217703001B86CAF5E9E /* FormatIndicatedCacheSerializer.swift in Sources */,
-				11ECC5C9BE0D9AE6AE8079882CB5AF75 /* Image.swift in Sources */,
-				270728363BC4B690C40E53B053710684 /* ImageCache.swift in Sources */,
-				0F755ADCEAA8BF40FF7BECCBD8B5310B /* ImageDownloader.swift in Sources */,
-				3DA9227F3FD83241A4D4BA9DBAE405AD /* ImageModifier.swift in Sources */,
-				D472B17C81637E5A348997920034CC8E /* ImagePrefetcher.swift in Sources */,
-				923EB9487045D3297D9932193420D597 /* ImageProcessor.swift in Sources */,
-				3845689DFB2BE4BFAD2D3C2733D7054A /* ImageTransition.swift in Sources */,
-				047C4D945343F46AFF1273DE29F8A290 /* ImageView+Kingfisher.swift in Sources */,
-				A8096F51DB82ADD9F002809E064F98F9 /* Indicator.swift in Sources */,
-				BCDA6101487ADAF8CE25A92727B57C24 /* Kingfisher-dummy.m in Sources */,
-				F949B79CF0DE1A67721B764EC95D20AD /* Kingfisher.swift in Sources */,
-				6AE8DA783077285DFA7F210F4E779A65 /* KingfisherManager.swift in Sources */,
-				7F0B3111D41B314575EC5A957DAFF2BA /* KingfisherOptionsInfo.swift in Sources */,
-				E84966064FC1C0803BE923842202ACEF /* Placeholder.swift in Sources */,
-				D205E953E843C195D4D27A6960483863 /* RequestModifier.swift in Sources */,
-				12CF563678704ED1369F793FA30AAEA9 /* Resource.swift in Sources */,
-				E0DC63E3FEA808360D265AC495098144 /* String+MD5.swift in Sources */,
-				D42E1C9C953771026150086BF7BEBD2B /* ThreadHelper.swift in Sources */,
-				7AE672DC4B32AF19F80EF28AD5096EDE /* UIButton+Kingfisher.swift in Sources */,
+				F6DDC4DD1F338C942261B19726F2A152 /* AnimatedImageView.swift in Sources */,
+				78ACC1F12406F3762F882273E421AD93 /* AuthenticationChallengeResponsable.swift in Sources */,
+				4F5E0DC4752A4F8AED457D83141D1264 /* Box.swift in Sources */,
+				21FEB4966B1C9F1C1BBDB5EE9E337610 /* CacheSerializer.swift in Sources */,
+				F92F8C526C438698D0A793ECFF41B2D9 /* CallbackQueue.swift in Sources */,
+				8538DA93E20F89D2DAB447709057427B /* Delegate.swift in Sources */,
+				CC6CBD6D09F3487C8119671F0709E8A6 /* Deprecated.swift in Sources */,
+				C000E10FB1EC09133D66D8E537F3FEFA /* DiskStorage.swift in Sources */,
+				07C8948559CCE74CFE5903D4B9C858BD /* ExtensionHelpers.swift in Sources */,
+				14AA684EBDBF925E4AC4D118F69A846B /* Filter.swift in Sources */,
+				79E50736E21BB37E650AAFA59D940B90 /* FormatIndicatedCacheSerializer.swift in Sources */,
+				3C1DFF8C213664BDB15F04ABA7FE4176 /* GIFAnimatedImage.swift in Sources */,
+				696DE0303F71171A3E4A9C4258F0A5D5 /* Image.swift in Sources */,
+				092C84399199A063781DAF6713C7ADE3 /* ImageCache.swift in Sources */,
+				7CB51C5EE5EB410D843BE8EA48779F71 /* ImageDataProcessor.swift in Sources */,
+				6D4D1EE91658CEE1390159F015320D55 /* ImageDataProvider.swift in Sources */,
+				AC31ABEB2D79702FFF36FB01F7157DDA /* ImageDownloader.swift in Sources */,
+				3896AA21EC5D3EB7B522FCC66CAE2D69 /* ImageDownloaderDelegate.swift in Sources */,
+				36A814BB8A755D68D5E3D96C4EAADB6E /* ImageDrawing.swift in Sources */,
+				00B48FBC95D04AEA853B9AE665D1E8E1 /* ImageFormat.swift in Sources */,
+				5B2C4CD6191E9E17463DF4DF3E5169E8 /* ImageModifier.swift in Sources */,
+				4547D2497788CEF8DB3CE88A9E724266 /* ImagePrefetcher.swift in Sources */,
+				5FAD8CAA06794CE892404AD9C408DF19 /* ImageProcessor.swift in Sources */,
+				7954A2E2DFB0092C64C9E223B7A4D744 /* ImageProgressive.swift in Sources */,
+				1388453A0BFFADA63CDB60C211FDEA89 /* ImageTransition.swift in Sources */,
+				F51B22D93BB90CB5C91FD1FE71B7D987 /* ImageView+Kingfisher.swift in Sources */,
+				DAF9A65290ECDD42CC76DF369C0E78BA /* Indicator.swift in Sources */,
+				1B14B0AFAD836E3694F74730177DAE30 /* Kingfisher-dummy.m in Sources */,
+				7DF6286BF0B2C0A02498CA9D22D9FD45 /* Kingfisher.swift in Sources */,
+				3EBA483E87C18A32151CE08617F0E00C /* KingfisherError.swift in Sources */,
+				ADEA1883A271AAEBB15FEAE77F7EFB6C /* KingfisherManager.swift in Sources */,
+				B0E9E870B0A6E278B2840B1469514912 /* KingfisherOptionsInfo.swift in Sources */,
+				A3765576E13E2188F1C8AD16104360A8 /* MemoryStorage.swift in Sources */,
+				041EB9FA2DCEE0A038C416616616D8A4 /* Placeholder.swift in Sources */,
+				83F252A836C0DECD4A2DB3FD1F28E31A /* RedirectHandler.swift in Sources */,
+				5D8B461677B082D9B12243AF68D7D329 /* RequestModifier.swift in Sources */,
+				32ADB348BDDEE0B27ED4C125694D6D02 /* Resource.swift in Sources */,
+				241E465897A56A5EE5FA73FEAEDAB450 /* Result.swift in Sources */,
+				C57309C3611CBE6E9C3120B8115A574B /* Runtime.swift in Sources */,
+				212B4D0416F2F00EB61CE5338A73C24E /* SessionDataTask.swift in Sources */,
+				DD309B2D0FC16DC15307A917449C4A7F /* SessionDelegate.swift in Sources */,
+				7A55B0BE93922D01082931F8C242A226 /* SizeExtensions.swift in Sources */,
+				257B0FEB5F806A21583C3E9B4F16F9E0 /* Source.swift in Sources */,
+				A01D0E20E670C29E4F36C0EAB9C96D8A /* Storage.swift in Sources */,
+				C21EB8249C652ED720BDDF0AF3A542CB /* String+MD5.swift in Sources */,
+				ACB9D36043B85C46D0C94266E7F1DBA2 /* UIButton+Kingfisher.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4AC5090FBCE99ADFE942E1C0B78A7C49 /* Sources */ = {
+		62DEC362FCFCD38B1A5D1009709A702B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				83F2827620539F7600AB538F /* MapViewPlusAnimator.swift in Sources */,
-				83F2827520539F7600AB538F /* MapViewPlusDelegates.swift in Sources */,
-				83F2827320539F7600AB538F /* AnnotationPlus.swift in Sources */,
-				83F2827B20539F7600AB538F /* MapViewPlus.swift in Sources */,
-				83F2827E20539F7600AB538F /* CalloutAndAnchorView.swift in Sources */,
-				83F2827A20539F7600AB538F /* DefaultCalloutViewThemeManager.swift in Sources */,
-				83F282832053A51800AB538F /* ImagesHelper.swift in Sources */,
-				83F2827D20539F7600AB538F /* AnchorView.swift in Sources */,
-				83F2827420539F7600AB538F /* CalloutViewPlus.swift in Sources */,
-				DC06697DF60FDAC3688CFAF891C147E0 /* MapViewPlus-dummy.m in Sources */,
-				83F2827C20539F7600AB538F /* MapViewPlusTemplateHelper.swift in Sources */,
-				83F2827720539F7600AB538F /* DefaultCalloutView.swift in Sources */,
-				83F2827920539F7600AB538F /* DefaultCalloutViewModel.swift in Sources */,
+				DF79FA0C7174AC3FE30C573DD3942E87 /* Pods-MapViewPlus_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8207250B02B27CA097C81D30CC36A978 /* Sources */ = {
+		8D0A6F1DF5EB7668BF9BC431A8D3209F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9F2EE39E20F7F12954B7CB2A9BFD9AD7 /* Sources */ = {
+		93BE1B4F05ECFB9A103D34B7534E3871 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4944D5F647CB8AC061A2EE815F677939 /* Pods-MapViewPlus_Example-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		AAF736FB4E31B9F8669822A4C6654D3B /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6DE91B549ACD134EC80FD53601F9F0EC /* Pods-MapViewPlus_Tests-dummy.m in Sources */,
+				39859B2D9361BDC07378EF4F015F2419 /* AnchorView.swift in Sources */,
+				139391CC8089FB18822758ABE22F04AD /* AnnotationPlus.swift in Sources */,
+				2FAF11C9655E9055DE4242C170D47905 /* CalloutAndAnchorView.swift in Sources */,
+				4202812BC7ADF5D624A7A2EFBCB650D3 /* CalloutViewPlus.swift in Sources */,
+				6711AAEF0D7E449358BE961426FEECAE /* DefaultCalloutView.swift in Sources */,
+				3F30794DF549311E375D28108DCF09EB /* DefaultCalloutView.xib in Sources */,
+				EFD0EB8AC003DAE8B5BA5977427D1D30 /* DefaultCalloutViewModel.swift in Sources */,
+				157EDD786BB4C0B18F1B41E765D1BE4C /* DefaultCalloutViewThemeManager.swift in Sources */,
+				5E5E1763B025CBBC725E0E047E52EEE3 /* ImagesHelper.swift in Sources */,
+				FA5CAC3E51CA4318129D3E670E10795D /* MapViewPlus-dummy.m in Sources */,
+				0C0F7A3312E0984DE8B3857434D8A542 /* MapViewPlus.swift in Sources */,
+				669D7BC5C455D1A704D2B04B131DDA9B /* MapViewPlusAnimator.swift in Sources */,
+				7E333F230B566E0B4ACB26CF957C6B43 /* MapViewPlusDelegates.swift in Sources */,
+				96B3DBA58E0529C7D8CEC8092BD86020 /* MapViewPlusTemplateHelper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		509C3AFE990F654A981642B60C0558DB /* PBXTargetDependency */ = {
+		1E735F09A187A2B08E5010146DFB2EF8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Kingfisher;
-			target = 6F712943B3C5592E82604940D11CE08A /* Kingfisher */;
-			targetProxy = 8E11D47A6AFB936EB2F81CF74019C3CD /* PBXContainerItemProxy */;
+			target = E8022D22FAA6690B5E1C379C1BCE1491 /* Kingfisher */;
+			targetProxy = EB68284FBFB1E01C202824BAD32D3BE3 /* PBXContainerItemProxy */;
 		};
-		5E01DC6375E8735FEE687850CB5F1B81 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = Kingfisher;
-			target = 6F712943B3C5592E82604940D11CE08A /* Kingfisher */;
-			targetProxy = 42934B5647F80A2B1BB8D1AA84DB3306 /* PBXContainerItemProxy */;
-		};
-		7334230CB70DD94C2AAEE6CD0594FDB1 /* PBXTargetDependency */ = {
+		81BB12A8CD9C9F5FCC9944641CD4AEC4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "MapViewPlus-MapViewPlus";
-			target = F3755D0C546E1F77E1F91AF972F495F5 /* MapViewPlus-MapViewPlus */;
-			targetProxy = F5E6F9523A909B47B1D1D561D2881966 /* PBXContainerItemProxy */;
+			target = AB3F557308DD735B3427E587B18B8A80 /* MapViewPlus-MapViewPlus */;
+			targetProxy = 57777BA42AFF0E0CF99A522813BB1F46 /* PBXContainerItemProxy */;
 		};
-		D34BB562A21374259C32E48F22104542 /* PBXTargetDependency */ = {
+		88C1332B5E51D72F1EB3F52C43384D04 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = MapViewPlus;
-			target = 604127B94882DD40B315E3ECC113FD36 /* MapViewPlus */;
-			targetProxy = 60665E3130AFC608007BAC62F8E8E677 /* PBXContainerItemProxy */;
+			target = 104F1045445BF4FD4CDBD09DBF9281B5 /* MapViewPlus */;
+			targetProxy = AEDFEA29F789D6DCB5DB4D1441B9BD0D /* PBXContainerItemProxy */;
+		};
+		A4DB41DB4024A753BAC45E9E4A32211A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Kingfisher;
+			target = E8022D22FAA6690B5E1C379C1BCE1491 /* Kingfisher */;
+			targetProxy = ADE04B3652C8B43F8256BDC2A22BEE62 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		1C0D31E2918549A686E212FC511B9953 /* Debug */ = {
+		1415000094A8BF559DF413D095D5E6B6 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5CC80DFFF51C1083EE4758D4F3614426 /* MapViewPlus.xcconfig */;
+			baseConfigurationReference = 978B344A98F1D028D515BA927069B628 /* MapViewPlus.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/MapViewPlus";
-				INFOPLIST_FILE = "Target Support Files/MapViewPlus/ResourceBundle-MapViewPlus-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				INFOPLIST_FILE = "Target Support Files/MapViewPlus/ResourceBundle-MapViewPlus-MapViewPlus-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				PRODUCT_NAME = MapViewPlus;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -793,89 +834,7 @@
 			};
 			name = Debug;
 		};
-		2C36943D3F27F825B3B628953975F734 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5CC80DFFF51C1083EE4758D4F3614426 /* MapViewPlus.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/MapViewPlus/MapViewPlus-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/MapViewPlus/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/MapViewPlus/MapViewPlus.modulemap";
-				PRODUCT_NAME = MapViewPlus;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		2CCF22CEB21B77E192A9AE7ADA3E02CB /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8DD4107177B09913A3CAFD0351D200A2 /* Pods-MapViewPlus_Example.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-MapViewPlus_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-MapViewPlus_Example/Pods-MapViewPlus_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_MapViewPlus_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		4755F68AC44BFFDB79D364B7F2A5C3F9 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5CC80DFFF51C1083EE4758D4F3614426 /* MapViewPlus.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/MapViewPlus";
-				INFOPLIST_FILE = "Target Support Files/MapViewPlus/ResourceBundle-MapViewPlus-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				PRODUCT_NAME = MapViewPlus;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
-		5011B865762FC0C0A28ECEC4CB63DC68 /* Debug */ = {
+		196DFA3E4A09A28224918543529A1885 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -907,7 +866,6 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -927,52 +885,24 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				MTL_ENABLE_DEBUG_INFO = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
-		5442C00834A03C0D613EC59D4A8D86DD /* Debug */ = {
+		88B75A679D7A2D7B9A808B996E49F3FC /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5CC80DFFF51C1083EE4758D4F3614426 /* MapViewPlus.xcconfig */;
+			baseConfigurationReference = 5084878DC7658D1C8F0D24F9DF110E07 /* Kingfisher.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/MapViewPlus/MapViewPlus-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/MapViewPlus/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/MapViewPlus/MapViewPlus.modulemap";
-				PRODUCT_NAME = MapViewPlus;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		576C583E88A92DC2279EB3BFC2CA8A6C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 681FBBDA5A6332CADC8624F5E288E24A /* Kingfisher.xcconfig */;
-			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -983,24 +913,25 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				GCC_PREFIX_HEADER = "Target Support Files/Kingfisher/Kingfisher-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Kingfisher/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Kingfisher/Kingfisher-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/Kingfisher/Kingfisher.modulemap";
+				PRODUCT_MODULE_NAME = Kingfisher;
 				PRODUCT_NAME = Kingfisher;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
-		827269710C98D60C14D46BC6AF9BF728 /* Release */ = {
+		B01D14FDC83DCF9D4BE53066BEA96D05 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -1032,7 +963,6 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -1049,19 +979,40 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
 		};
-		977A42894DC5E5D786FDA105A77AA083 /* Release */ = {
+		B21419DE6125F5C4FF5D91A43E3E8160 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3A12B7E996B1DD76443BBF1F0F097369 /* Pods-MapViewPlus_Tests.release.xcconfig */;
+			baseConfigurationReference = 978B344A98F1D028D515BA927069B628 /* MapViewPlus.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/MapViewPlus";
+				INFOPLIST_FILE = "Target Support Files/MapViewPlus/ResourceBundle-MapViewPlus-MapViewPlus-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				PRODUCT_NAME = MapViewPlus;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		B661B521F9832BCC8596CC2D624D0576 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A5177C286717DB01CB2D91C052496C9 /* Pods-MapViewPlus_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -1071,17 +1022,17 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-MapViewPlus_Tests/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-MapViewPlus_Example/Pods-MapViewPlus_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-MapViewPlus_Tests/Pods-MapViewPlus_Tests.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-MapViewPlus_Example/Pods-MapViewPlus_Example.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_MapViewPlus_Tests;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1091,10 +1042,11 @@
 			};
 			name = Release;
 		};
-		A2D9F3612E9E82EE2DB36F089358238E /* Debug */ = {
+		B7733392EE9B4D9898D40A4363E61326 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 108930A23F8A32B5E0C1B23B77B126CD /* Pods-MapViewPlus_Example.debug.xcconfig */;
+			baseConfigurationReference = 978B344A98F1D028D515BA927069B628 /* MapViewPlus.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -1104,9 +1056,43 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-MapViewPlus_Example/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/MapViewPlus/MapViewPlus-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MapViewPlus/MapViewPlus-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MapViewPlus/MapViewPlus.modulemap";
+				PRODUCT_MODULE_NAME = MapViewPlus;
+				PRODUCT_NAME = MapViewPlus;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BC5C487578C421A71B63875710753A1C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3203FF12F06BCD529B379CF529955151 /* Pods-MapViewPlus_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MapViewPlus_Example/Pods-MapViewPlus_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-MapViewPlus_Example/Pods-MapViewPlus_Example.modulemap";
@@ -1114,21 +1100,20 @@
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_MapViewPlus_Example;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		E8652F35BF322A3957D0F62338910B79 /* Release */ = {
+		D3C85F45DB51A8C745560E614E4E0F4D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 681FBBDA5A6332CADC8624F5E288E24A /* Kingfisher.xcconfig */;
+			baseConfigurationReference = 5084878DC7658D1C8F0D24F9DF110E07 /* Kingfisher.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -1139,28 +1124,28 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				GCC_PREFIX_HEADER = "Target Support Files/Kingfisher/Kingfisher-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Kingfisher/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Kingfisher/Kingfisher-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/Kingfisher/Kingfisher.modulemap";
+				PRODUCT_MODULE_NAME = Kingfisher;
 				PRODUCT_NAME = Kingfisher;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
-		EC2AF7390C240F1140C24EFA0D06DC73 /* Debug */ = {
+		EEDF866D682715D1BEB27D73F844FF59 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 653F645AF3DBBBC66B4C6C08863B0C56 /* Pods-MapViewPlus_Tests.debug.xcconfig */;
+			baseConfigurationReference = 978B344A98F1D028D515BA927069B628 /* MapViewPlus.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -1170,19 +1155,18 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-MapViewPlus_Tests/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/MapViewPlus/MapViewPlus-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MapViewPlus/MapViewPlus-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-MapViewPlus_Tests/Pods-MapViewPlus_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_MapViewPlus_Tests;
+				MODULEMAP_FILE = "Target Support Files/MapViewPlus/MapViewPlus.modulemap";
+				PRODUCT_MODULE_NAME = MapViewPlus;
+				PRODUCT_NAME = MapViewPlus;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -1192,61 +1176,52 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		141DE837D18875B1C73BACE1BB922C3C /* Build configuration list for PBXNativeTarget "Pods-MapViewPlus_Tests" */ = {
+		18A3EB3BD961E512C746D60678064D38 /* Build configuration list for PBXNativeTarget "MapViewPlus" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EC2AF7390C240F1140C24EFA0D06DC73 /* Debug */,
-				977A42894DC5E5D786FDA105A77AA083 /* Release */,
+				EEDF866D682715D1BEB27D73F844FF59 /* Debug */,
+				B7733392EE9B4D9898D40A4363E61326 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1A35B191D970CA5AE9B78FCCEEA67A43 /* Build configuration list for PBXNativeTarget "Pods-MapViewPlus_Example" */ = {
+		38391820072E722DAA8CDE03578AB13E /* Build configuration list for PBXNativeTarget "Pods-MapViewPlus_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A2D9F3612E9E82EE2DB36F089358238E /* Debug */,
-				2CCF22CEB21B77E192A9AE7ADA3E02CB /* Release */,
+				BC5C487578C421A71B63875710753A1C /* Debug */,
+				B661B521F9832BCC8596CC2D624D0576 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5011B865762FC0C0A28ECEC4CB63DC68 /* Debug */,
-				827269710C98D60C14D46BC6AF9BF728 /* Release */,
+				196DFA3E4A09A28224918543529A1885 /* Debug */,
+				B01D14FDC83DCF9D4BE53066BEA96D05 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		53C9CC3F28CE180CBD7B035855337B11 /* Build configuration list for PBXNativeTarget "MapViewPlus" */ = {
+		54150FC7B504C75A3E5007530EE7B19D /* Build configuration list for PBXNativeTarget "MapViewPlus-MapViewPlus" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5442C00834A03C0D613EC59D4A8D86DD /* Debug */,
-				2C36943D3F27F825B3B628953975F734 /* Release */,
+				1415000094A8BF559DF413D095D5E6B6 /* Debug */,
+				B21419DE6125F5C4FF5D91A43E3E8160 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8C1E4CEFB2390CBE75E70BAC20F44BBF /* Build configuration list for PBXNativeTarget "Kingfisher" */ = {
+		B0848743DBC84525A838C80EB5BF2A20 /* Build configuration list for PBXNativeTarget "Kingfisher" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				576C583E88A92DC2279EB3BFC2CA8A6C /* Debug */,
-				E8652F35BF322A3957D0F62338910B79 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		F0EEE6ECADD8E7984EB0DBBC4D73F9F8 /* Build configuration list for PBXNativeTarget "MapViewPlus-MapViewPlus" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				1C0D31E2918549A686E212FC511B9953 /* Debug */,
-				4755F68AC44BFFDB79D364B7F2A5C3F9 /* Release */,
+				D3C85F45DB51A8C745560E614E4E0F4D /* Debug */,
+				88B75A679D7A2D7B9A808B996E49F3FC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 }

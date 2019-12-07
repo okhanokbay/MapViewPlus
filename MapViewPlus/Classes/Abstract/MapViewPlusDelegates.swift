@@ -72,15 +72,15 @@ public protocol CalloutViewCustomizerDelegate: class {
 }
 
 public extension CalloutViewCustomizerDelegate {
-    public func mapView(_ mapView: MapViewPlus, insetFor calloutView: CalloutViewPlus) -> CGFloat {
+    func mapView(_ mapView: MapViewPlus, insetFor calloutView: CalloutViewPlus) -> CGFloat {
         return mapView.defaultInsetForCalloutView
     }
 	
-	public func mapView(_ mapView: MapViewPlus, animationTypeForShowingCalloutViewOf annotationView: AnnotationViewPlus) -> CalloutViewShowingAnimationType {
+    func mapView(_ mapView: MapViewPlus, animationTypeForShowingCalloutViewOf annotationView: AnnotationViewPlus) -> CalloutViewShowingAnimationType {
 		return CalloutViewShowingAnimationType.fromBottom
 	}
 	
-	public func mapView(_ mapView: MapViewPlus, animationTypeForHidingCalloutViewOf annoationView: AnnotationViewPlus) -> CalloutViewHidingAnimationType {
+    func mapView(_ mapView: MapViewPlus, animationTypeForHidingCalloutViewOf annoationView: AnnotationViewPlus) -> CalloutViewHidingAnimationType {
 		return CalloutViewHidingAnimationType.toBottom
 	}
 }
@@ -102,7 +102,7 @@ public extension AnchorViewCustomizerDelegate {
 		return mapView.defaultHeightForAnchors
 	}
 	
-    public func mapView(_ mapView: MapViewPlus, fillColorForAnchorOf calloutView: CalloutViewPlus) -> UIColor {
+    func mapView(_ mapView: MapViewPlus, fillColorForAnchorOf calloutView: CalloutViewPlus) -> UIColor {
         return mapView.defaultFillColorForAnchors
     }
 }

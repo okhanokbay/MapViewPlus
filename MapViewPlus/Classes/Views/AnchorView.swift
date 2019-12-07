@@ -33,7 +33,7 @@ public protocol AnchorViewDesignable: class {
     var secondLineEndPoint: CGPoint? { get }
 }
 
-public final class AnchorView: UIView, AnchorViewDesignable {
+public class AnchorView: UIView, AnchorViewDesignable {
     
     fileprivate var fillColor: UIColor = UIColor.white
     

@@ -52,7 +52,7 @@ open class CalloutAndAnchorView: UIView {
 		
         addSubview(calloutAsView)
         addSubview(anchorAsView)
-		bringSubview(toFront: calloutAsView)
+        bringSubviewToFront(calloutAsView)
 		
 		backgroundColor = UIColor.clear
     }
