@@ -223,7 +223,6 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
-						DevelopmentTeam = VR8AX8Y52G;
 						LastSwiftMigration = 1120;
 					};
 				};
@@ -442,9 +441,9 @@
 			baseConfigurationReference = 020AC1292024337F13297F42 /* Pods-MapViewPlus_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = VR8AX8Y52G;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = MapViewPlus/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.MapViewPlus-Example.";
@@ -460,9 +459,9 @@
 			baseConfigurationReference = 52422279A1F30D2B76A394D4 /* Pods-MapViewPlus_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = VR8AX8Y52G;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = MapViewPlus/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.MapViewPlus-Example.";
