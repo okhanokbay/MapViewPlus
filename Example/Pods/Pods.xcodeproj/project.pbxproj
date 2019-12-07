@@ -29,8 +29,6 @@
 		7AE672DC4B32AF19F80EF28AD5096EDE /* UIButton+Kingfisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F4B8D9762C2732EA00A4E9BCE0BB730 /* UIButton+Kingfisher.swift */; };
 		7F0B3111D41B314575EC5A957DAFF2BA /* KingfisherOptionsInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD292E0746B2C957ED9E46AC434086D /* KingfisherOptionsInfo.swift */; };
 		811905896A193EC504089152BACE82DE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E3AE42F9EED9AE22447BADCB81E0067 /* Foundation.framework */; };
-		83F2825E20539F6D00AB538F /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 83F2825D20539F6C00AB538F /* .gitkeep */; };
-		83F2827220539F7600AB538F /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 83F2826020539F7600AB538F /* .gitkeep */; };
 		83F2827320539F7600AB538F /* AnnotationPlus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83F2826220539F7600AB538F /* AnnotationPlus.swift */; };
 		83F2827420539F7600AB538F /* CalloutViewPlus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83F2826320539F7600AB538F /* CalloutViewPlus.swift */; };
 		83F2827520539F7600AB538F /* MapViewPlusDelegates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83F2826420539F7600AB538F /* MapViewPlusDelegates.swift */; };
@@ -140,8 +138,6 @@
 		76A58ACB5A065AB17E29ED1D3DDB1152 /* Pods-MapViewPlus_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MapViewPlus_Example-dummy.m"; sourceTree = "<group>"; };
 		7C3D8F5A43A82914AE00333E86A66533 /* Pods-MapViewPlus_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MapViewPlus_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		7F4B8D9762C2732EA00A4E9BCE0BB730 /* UIButton+Kingfisher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIButton+Kingfisher.swift"; path = "Sources/UIButton+Kingfisher.swift"; sourceTree = "<group>"; };
-		83F2825D20539F6C00AB538F /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
-		83F2826020539F7600AB538F /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
 		83F2826220539F7600AB538F /* AnnotationPlus.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnnotationPlus.swift; sourceTree = "<group>"; };
 		83F2826320539F7600AB538F /* CalloutViewPlus.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalloutViewPlus.swift; sourceTree = "<group>"; };
 		83F2826420539F7600AB538F /* MapViewPlusDelegates.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewPlusDelegates.swift; sourceTree = "<group>"; };
@@ -359,7 +355,6 @@
 			isa = PBXGroup;
 			children = (
 				83F2827F20539F9800AB538F /* Assets.xcassets */,
-				83F2825D20539F6C00AB538F /* .gitkeep */,
 			);
 			name = Assets;
 			path = MapViewPlus/Assets;
@@ -368,7 +363,6 @@
 		83F2825F20539F7600AB538F /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				83F2826020539F7600AB538F /* .gitkeep */,
 				83F282812053A50500AB538F /* Helper */,
 				83F2826120539F7600AB538F /* Abstract */,
 				83F2826520539F7600AB538F /* Animator */,
@@ -642,6 +636,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
@@ -663,9 +658,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				83F2827220539F7600AB538F /* .gitkeep in Resources */,
 				EC8FEE8D3905F0BB594D93178BD8DE4E /* MapViewPlus.bundle in Resources */,
-				83F2825E20539F6D00AB538F /* .gitkeep in Resources */,
 				83F2827820539F7600AB538F /* DefaultCalloutView.xib in Resources */,
 				83F2828020539F9800AB538F /* Assets.xcassets in Resources */,
 			);

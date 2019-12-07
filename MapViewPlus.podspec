@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'MapViewPlus'
-  s.version          = '0.1.1'
+  s.version          = '0.1.3'
   s.summary          = 'MKMapView + Image Annotation + Custom Callout View just by implementing 2 delegate methods. (Includes callout view template)'
 
   s.description      = <<-DESC
@@ -22,7 +22,7 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'https://github.com/okhanokbay/MapViewPlus.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '9.0'
-  s.swift_version = '4.0'
+  s.swift_version = '5.0'
 
   s.source_files = 'MapViewPlus/Classes/**/*'
   
@@ -31,6 +31,6 @@ Pod::Spec.new do |s|
    }
    
    s.frameworks = 'UIKit', 'MapKit'
-   s.dependency 'Kingfisher', '~> 4.6.3'
+   s.dependency 'Kingfisher', '~> 5.6.0'
    
 end
